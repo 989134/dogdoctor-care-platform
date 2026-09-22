@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "robot": {
+    "model": "mBot Ranger",
+    "body_width_m": 0.155,
+    "body_length_m": 0.205,
+    "track_width_m_measured": 0.145,
+    "wheel_diameter_m": 0.06
+  },
+  "camera": {
+    "height_m": 0.14,
+    "pitch_deg_reported": 60.0,
+    "pitch_description": "約仰角 60 度",
+    "pitch_convention": "positive_is_up",
+    "pitch_measurement_status": "estimated_needs_confirmation",
+    "same_camera_as_calibration_file": "unconfirmed"
+  },
+  "ultrasonic": {
+    "installed": true,
+    "height_m": 0.1,
+    "yaw_offset_deg": 0.0,
+    "orientation": "forward",
+    "rj25_port": "PORT_10",
+    "firmware_enabled": true,
+    "firmware_readout_verified": false
+  },
+  "motor_tuning": {
+    "motor1_forward_sign": -1,
+    "motor2_forward_sign": 1,
+    "drive_pwm": 70,
+    "left_turn_pwm": 130,
+    "right_turn_pwm": 100,
+    "turn_command_mapping": "left=(+left,-right), right=(-left,+right)",
+    "motion_completion": "encoder_pulse_targets_with_2s_timeout",
+    "drive_target_pulses": {"left": 130, "right": 130},
+    "left_turn_target_pulses": {"left": 151, "right": 88},
+    "right_turn_target_pulses": {"left": 422, "right": 321},
+    "target_step": {"drive_m_measured": 0.105, "left_turn_deg_measured": 30, "right_turn_deg_measured": 25},
+    "status": "v2_forward_left_right_directly_validated"
+  },
+  "measurement_source": "user_reported",
+  "notes": [
+    "尺寸已由公分換算為公尺。",
+    "鏡頭角度目前是估計仰角，正式幾何投影前需要確認實際朝上或朝下。",
+    "實測左右輪中心距離 0.145 m 尚未取代編碼器轉向校正所得的有效輪距。",
+    "PORT_10 已透過實車遙測確認可讀取 1 到 400 cm。",
+    "V2 編碼器小步韌體已編譯，尚待上傳與實車驗證。"
+  ]
+}

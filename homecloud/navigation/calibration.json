@@ -1,0 +1,43 @@
+{
+  "schema_version": 2,
+  "status": "provisional_real_robot_calibration",
+  "left_m_per_pulse": 0.0005412371134020618,
+  "right_m_per_pulse": 0.0006069364161849711,
+  "left_sign": -1,
+  "right_sign": 1,
+  "track_width_m": 0.145,
+  "yaw_sign": -1,
+  "left_turn_yaw_scale": 0.27855584566718705,
+  "right_turn_yaw_scale": 0.0650696436988658,
+  "straight_reference": {
+    "source": "navigation/output/v2_step_validation.json",
+    "distance_m": 0.105,
+    "left_delta_pulse": -194,
+    "right_delta_pulse": 173,
+    "command_requests": 1,
+    "done_reason": "encoder_target"
+  },
+  "track_width_reference": {
+    "source": "physical_measurement",
+    "value_m": 0.145
+  },
+  "turn_step_reference": {
+    "source": "navigation/output/l_motion_diagnostic_20260916_200001.json",
+    "left_observed_deg": 60.0,
+    "right_observed_deg": 15.0,
+    "left_valid_trials": 1,
+    "right_valid_trials": 3,
+    "firmware_scope": "V2_ENCODER_STEPS",
+    "note": "2026-09-16 bounded L-motion diagnostic measured three right steps at approximately 45 degrees total; right yaw scale was recalculated from the captured pulse deltas."
+  },
+  "motor_tuning": {
+    "drive_pwm": 70,
+    "left_turn_pwm": 130,
+    "right_turn_pwm": 100
+  },
+  "limitations": [
+    "V2 straight scale currently uses one directly measured 10.5 cm encoder-target step.",
+    "Wheel slip remains visible in the closed-loop route and requires visual correction.",
+    "Repeat straight calibration trials before claiming final metric accuracy."
+  ]
+}

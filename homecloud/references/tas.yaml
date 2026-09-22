@@ -1,0 +1,652 @@
+openapi: 3.0.0
+info:
+  title: 電話連結服務(TAS)
+  description: 電話連結服務(TAS) RESTful API。
+  version: 1.0.0
+servers:
+  - url: 'https://tasapi.cht.com.tw/apis/CHTIoT'
+    description: Server URL
+tags:
+  - name: Reg
+    description: 租用服務電話號碼。
+  - name: PhoneConfig
+    description: 設定互動式語音應答(IVR)選單。
+  - name: Callout
+    description: 電話呼叫。
+paths:
+  /phone-conn/v1/reg:
+    post:
+      summary: 租用服務電話號碼
+      description: |
+        租用服務電話號碼。
+
+        一個API金鑰可以租用三個服務號碼。
+      tags:
+        - Reg
+      parameters:
+        - in: header
+          name: x-api-key
+          description: API金鑰，申請方法請參考安裝/部屬及設定資源章節的問2。
+          schema:
+            type: string
+          required: true
+      requestBody:
+        description: |-
+          1. appName  開發的應用服務名稱。
+          2. appDesc 應用服務描述 [optional]。
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                appName:
+                  type: string
+                  example: IoT Tas Demo
+                  description: 開發的應用服務名稱。
+                appDesc:
+                  type: string
+                  example: 使用電話選單操作 IoT 裝置
+                  description: '應用服務描述 [optional]。'
+      responses:
+        '200':
+          description: OK. 回傳json物件
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  serviceNumber:
+                    type: string
+                    example: 028192****
+                    description: 本次租用的電話連結服務號碼。
+                  SNKey:
+                    type: string
+                    example: GJW9Q23NFW9B96MW8KN6ZULA27N84JD8
+                    description: 配合 MQTT 服務接收此電話號碼資訊時所使用的電話識別碼。
+                  start:
+                    type: string
+                    example: '2018-03-01T07:02:04Z'
+                    description: 開始租用本服務電話號碼的時間。
+        '400':
+          description: 回傳 err 代表發生錯誤，會有 msg 欄位說明錯誤發生的原因。
+          content:
+            application/json:
+              schema:
+                type: object
+              example: |
+                {
+                  "status": "err",
+                  "msg": "appName cannot be empty"
+                }
+    get:
+      summary: 取回所有已租用的服務電話號碼。
+      description: 取回所有已租用的服務電話號碼訊。
+      tags:
+        - Reg
+      parameters:
+        - in: header
+          name: x-api-key
+          description:  API金鑰，申請方法請參考安裝/部屬及設定資源章節的問2。
+          schema:
+            type: string
+          required: true
+      responses:
+        '200':
+          description: 回傳json array物件，列出該帳號下所有申請的服務電話號碼資訊。
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Reg'
+  '/phone-conn/v1/reg/{serviceNumber}':
+    parameters:
+      - in: path
+        name: serviceNumber
+        schema:
+          type: string
+        required: true
+        description: 所租用服務電話號碼含區碼。
+    put:
+      summary: 變更服務電話號碼狀態
+      description: |-
+        變更服務電話號碼狀態。
+
+        透過這個 API 可用來將進入「閉鎖」狀態的電話號碼重新變更為「可使用」狀態。
+      tags:
+        - Reg
+      parameters:
+        - in: header
+          name: x-api-key
+          description:  API金鑰，申請方法請參考安裝/部屬及設定資源章節的問2。
+          schema:
+            type: string
+          required: true
+      requestBody:
+        description: |-
+          1. appName  開發的應用服務名稱。
+          2. appDesc 應用服務描述 [optional]。
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                appName:
+                  type: string
+                  example: IoT Tas Demo
+                  description: 開發的應用服務名稱。
+                appDesc:
+                  type: string
+                  example: 使用電話選單操作 IoT 裝置
+                  description: '應用服務描述 [optional]。'
+      responses:
+        '200':
+          description: ok 代表成功執行。
+          content:
+            application/json:
+              schema:
+                type: object
+              example: |
+                {
+                  "status": "ok",
+                }
+        '400':
+          description: 回傳 err 代表發生錯誤，會有 msg 欄位說明錯誤發生的原因。
+          content:
+            application/json:
+              schema:
+                type: object
+              example: |
+                {
+                  "status": "err",
+                  "msg": "error"
+                }
+    delete:
+      summary: 刪除服務電話號碼。
+      description: >-
+        刪除服務電話號碼。
+
+
+        使該服務電話號碼進入「閉鎖」狀態，無法再提供服務給任何用戶。該電話號碼會保留 30 天，若 30 天內重新透過PUT reg API
+        並帶入要更改狀態的電話號碼，可以解除電話號碼的閉鎖狀態，重新提供服務。
+      tags:
+        - Reg
+      parameters:
+        - in: header
+          name: x-api-key
+          description:  API金鑰，申請方法請參考安裝/部屬及設定資源章節的問2。
+          schema:
+            type: string
+          required: true
+      responses:
+        '200':
+          description: ok 代表成功執行。
+          content:
+            application/json:
+              schema:
+                type: object
+              example: |
+                {
+                  "status": "ok"
+                }
+        '400':
+          description: 回傳 err 代表發生錯誤，會有 msg 欄位說明錯誤發生的原因。
+          content:
+            application/json:
+              schema:
+                type: object
+              example: |
+                {
+                  "status": "err",
+                  "msg": "error"
+                }
+  /phone-conn/v1/phoneConfig:
+    post:
+      summary: 設定電話互動選單內容。
+      description: 取得感測器屬性。
+      tags:
+        - PhoneConfig
+      parameters:
+        - in: header
+          name: x-api-key
+          description:  API金鑰，申請方法請參考安裝/部屬及設定資源章節的問2。
+          schema:
+            type: string
+          required: true
+      requestBody:
+        description: |
+          serviceNumber：租用的服務電話號碼(含區碼)。
+
+          ivrData：使用 json array 格式，包含的數個 IvrData 型式的 JSON
+          Object。
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PhoneConfig'
+            example: |
+              簡單的語音選單範例： 
+              { 
+                "serviceNumber": "028192****", 
+                "ivrData": [
+                  {
+                    "node": "MAIN",
+                    "text": "目前氣溫為 25 度" 
+                  } 
+                ] 
+              } 
+              包含語音收碼的選單範例： 
+              { 
+                "serviceNumber": "028192****", 
+                "ivrData": [
+                  {
+                    "node": "MAIN",
+                    "text": "訂閱請按0, 查詢空氣品質請按1, 解除訂閱請按2, 結束請按 9", 
+                    "promptMode": "F", 
+                    "collectDTMF": true, 
+                    "DTMF": { 
+                      "1": "CUSTOM", 
+                      "2": "CUSTOM", 
+                      "3": "CUSTOM", 
+                      "9": "exit" 
+                    }
+                  }, 
+                  {
+                    "node": "exit", 
+                    "text": "謝謝您的使用", 
+                    "nextNode": "end"
+                  } 
+                ] 
+                
+              } 
+              另一範例： 
+              { 
+                "serviceNumber": "028192****", 
+                "ivrData": [ 
+                  { 
+                    "node": "MAIN", 
+                    "nextNode": "CUSTOM" 
+                    }, 
+                    { 
+                      "node": "control_lamp", 
+                      "text": "打開電燈請按1, 關閉電燈請按2", 
+                      "collectDTMF": true
+                    }, 
+                    { 
+                      "node": "exit", 
+                      "text": "謝謝您的使用",
+                      "nextNode": "END" 
+                    } 
+                  ] 
+              } 
+      responses:
+        '200':
+          description: ok 代表成功執行。
+          content:
+            application/json:
+              schema:
+                type: object
+              example: |
+                {
+                  "status": "ok",
+                }
+        '400':
+          description: 回傳 err 代表發生錯誤，會有 msg 欄位說明錯誤發生的原因。
+          content:
+            application/json:
+              schema:
+                type: object
+              example: |
+                {
+                  "status": "err",
+                  "msg": "syntax error list:\n - missing 'ivrData'\n"
+                }
+        '403':
+          description: 回傳 err 代表發生錯誤，會有 msg 欄位說明錯誤發生的原因。
+          content:
+            application/json:
+              schema:
+                type: object
+              example: |
+                {
+                  "status": "err",
+                  "msg": "you cannot access serviceNumber 028192****"
+                }
+  '/phone-conn/v1/phoneConfig/{serviceNumber}':
+    parameters:
+      - in: path
+        name: serviceNumber
+        schema:
+          type: string
+        required: true
+        description: 所租用服務電話號碼含區碼。
+    get:
+      summary: 取回電話互動選單內容。
+      description: 取回電話互動選單內容。
+      tags:
+        - PhoneConfig
+      parameters:
+        - in: header
+          name: x-api-key
+          description:  API金鑰，申請方法請參考安裝/部屬及設定資源章節的問2。
+          schema:
+            type: string
+          required: true
+      responses:
+        '200':
+          description: 代表成功執行。
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PhoneConfig'
+              example: |
+                { 
+                  "serviceNumber": "021234****", 
+                  "ivrData": [
+                    {
+                      "node": "MAIN",
+                      "text": "訂閱請按0, 查詢空氣品質請按1, 解除訂閱請按2, 結束請按 9", 
+                      "promptMode": "F", 
+                      "collectDTMF": true, 
+                      "DTMF": { 
+                        "1": "CUSTOM", 
+                        "2": "CUSTOM", 
+                        "3": "CUSTOM", 
+                        "9": "exit" 
+                      }
+                    }, 
+                    {
+                      "node": "exit", 
+                      "text": "謝謝您的使用", 
+                      "nextNode": "end"
+                    } 
+                  ] 
+                }
+        '400':
+          description: 回傳 err 代表發生錯誤，會有 msg 欄位說明錯誤發生的原因。
+          content:
+            application/json:
+              schema:
+                type: object
+              example: |
+                {
+                  "status": "err",
+                  "msg": "error"
+                }
+    delete:
+      summary: 刪除電話互動選單內容。
+      description: 刪除電話互動選單內容。
+      tags:
+        - PhoneConfig
+      parameters:
+        - in: header
+          name: x-api-key
+          description:  API金鑰，申請方法請參考安裝/部屬及設定資源章節的問2。
+          schema:
+            type: string
+          required: true
+      responses:
+        '200':
+          description: ok 代表成功執行。
+          content:
+            application/json:
+              schema:
+                type: object
+              example: |
+                {
+                  "status": "ok",
+                }
+        '400':
+          description: 回傳 err 代表發生錯誤，會有 msg 欄位說明錯誤發生的原因。
+          content:
+            application/json:
+              schema:
+                type: object
+              example: |
+                {
+                  "status": "err",
+                  "msg": "error"
+                }
+  /phone-conn/v1/callout:
+    post:
+      summary: 發出電話通告。
+      description: |-
+        發出電話通告。
+
+        通知指定的電話群組並播放指定的語音。
+      tags:
+        - Callout
+      parameters:
+        - in: header
+          name: x-api-key
+          description:  API金鑰，申請方法請參考安裝/部屬及設定資源章節的問2。
+          schema:
+            type: string
+          required: true
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Callout'
+      responses:
+        '200':
+          description: 回傳json物件。
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: ok
+                    description: 回傳值"ok"代表成功執行。
+                  group:
+                    type: string
+                    example: 39ju39rdnkkw3f
+                    description: 代表此次電話通知群組的識別碼。可用來在MQTT所接收到的電話回應結果訊息中用來識別此次電話通知呼叫。
+        '400':
+          description: 回傳json物件。
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: err
+                    description: 發生錯誤，會有 msg 欄位說明錯誤發生的原因。
+                  msg:
+                    type: string
+                    example: error
+                    description: 錯誤發生的原因。
+components:
+  schemas:
+    PhoneConfig:
+      type: object
+      properties:
+        serviceName:
+          type: string
+          example: '03*******'
+          description: 租用的服務電話號碼(含區碼)。(必要)
+        ivrData:
+          type: array
+          items:
+            $ref: '#/components/schemas/PhoneConfigIVRData'
+          description: (必要)使用 JSON array 格式，包含的數個 IvrData 型式的 JSON Object。
+    PhoneConfigIVRData:
+      type: object
+      properties:
+        node:
+          type: string
+          example: MAIN or playNode
+          description: >
+            node 屬性標示為"CONFIG"的物件(非必要項目，只可出現1次)：
+            目前無任何屬性，保留未來功能擴充時使用。
+
+            node 屬性標示為"MAIN"的物件(必要項目，只可出現1次)：
+            標示為"MAIN"是電話選單第一個執行的節點。
+
+            node 屬性標示為其他名稱 (可出現0-N次)：
+            節點命名規則：node 屬性的命名只允許[A-Za-z0-9_]，即只可接受英文大小寫、數字0-9及底線，而且首字必須為英文字母，不可命名為CUSTOM, END，名稱最長只允許16個字元。
+            此類型的節點在使用時需要配合其他節點的nextNode屬性值指定跳到此類型的節點名稱，或是MQTT訊息中的nextNode屬性值指定此型節點名稱，才可以跳轉到這個節點。
+            此型節點的各項屬性值，與MAIN節點的規範相同。
+        text:
+          type: string
+          example: '訂閱請按 1, 查詢空氣品質請按 2, 解除訂閱請按 3'
+          description: 要播放的文字內容，字數長度限制最長200 (中文一個字計算為1，英文單字(word)每個計算為1，數字每個字元計算1，標點與空白不列入計算)。
+        textSpeed:
+          type: number
+          example: 0.9
+          description: 設定產生語音檔的說話速度，可設定的數值範圍是0.0~10.0之間。若是promptMode是F或F1時，預設值是0.9，若promptMode是F2或M時，預設值是1.0。
+        promptMode:
+          type: string
+          example: F
+          description: 填入F、F1(與F相同)、F2則是使用女性聲音播放，填入M則是使用男性聲音播放，預設值是M。
+        collectDTMF:
+          type: boolean
+          example: true
+          description: >-
+            填寫true或false。填寫false代表不需要收碼，填寫true代表需要等待用戶輸入DTMF按鍵 (只接收 1 個 DTMF輸入)。若設定collectDTMF為true時，nextNode屬性不作用。預設值為 false。
+        DTMF:
+          type: object
+          example:
+            '1': app1
+            '2': CUSTOM
+          description: >-
+            在collectDTMF設定為true時，可以透過JSON Object格式指定DTMF輸入要跳轉的節點名稱。例如，DTMF設定為{"1":"app1","2":"CUSTOM"}時，代表輸入按鍵 1 要跳到 "app1"節點，按鍵2要透過MQTT訊息回報給創客伺服器等待下一個執行動作。"CUSTOM"是系統的保留字。
+
+            若用戶輸入的是按鍵2，則會透過MQTT訊息告知創客AP用戶按下的DTMF按鍵，等待創客的MQTT回應訊息以決定下一個執行動作。
+
+            若用戶輸入的不是DTMF中指定的數字鍵，系統則會自動重覆播放text屬性的內容。可以設定的DTMF範圍限制為數字0-9。
+
+            若是有設定"collectDTMF":true，但是沒有設定DTMF屬性時，則是用戶按下數字鍵0-9，會透過MQTT回報用戶按下的按鍵給創客。
+        nextNode:
+          type: string
+          example: app2Node
+          description: >-
+            選單間跳轉功能，指定播放text屬性設定的文字後，要跳轉的節點名稱，有下列特殊的保留數值(預設值為 END)：
+
+            MAIN：跳到MAIN節點
+            END：播放語音後掛斷電話
+            CUSTOM：則是在播放文字後，會透過MQTT通知創客，請求回應下一個要執行的節點或是動作。
+            其他節點名稱：代表跳轉到對應node屬性的節點。例如：設定屬性值"nextNode":"t001"，代表會跳轉到包含屬性值 "node":"t001" 的節點執行動作。
+
+            若DTMF屬性與nextNode屬性同時存在，則nextNode屬性不作用。不可指定此屬性值為CONFIG。
+    Callout:
+      type: object
+      properties:
+        serviceNumber:
+          type: string
+          example: '028192****'
+          description: 租用的服務電話號碼(含區碼)。(必要)
+        phones:
+          type: array
+          items:
+            type: string
+          example: ["03*****01", "03*****02"]
+          description: 要callout的目的電話號碼，電話號碼格式為 0XXXXXXXXX，以數字0開頭含區碼之電話號碼全碼，不可包含任何空白或是特殊符號。最多可同時填入 150 個電話號碼。(必要)
+        ivrData:
+          $ref: '#/components/schemas/calloutIVRData'
+          description: 電話接通後，要播放的語音。(必要)
+        tags:
+          type: array
+          items:
+            type: string
+          example: ["tag1", "tag2"]
+          description: 填入JSON Array(陣列)型別。陣列中的每一個JSON元素對應一個phones陣列中的每個被叫電話號碼，會在後續的MQTT訊息中，以tag屬性送回填入在此處的JSON資料。創客在發起電話通告請求時，可以在JSON陣列中針對各個不同的被叫號碼，在此屬性中加入對應的參數，所加入的資料會出現在後續收到對應被叫號碼的MQTT訊息中的tag屬性。每個陣列元素限制字串長度最多1024個字元。
+        ringingTimeout:
+          type: integer
+          example: 30
+          description: 指定在發出電話通告時，最長等待多少秒。超過最長等待秒數後，系統停止電話振鈴，並且會在MQTT calloutResult topic中回傳電話呼叫狀態為timeout(等待逾時)。此參數為整數型別，最小值為15秒，最大值為120秒，不指定時預設值為30秒。
+    calloutIVRData:
+      type: object
+      properties:
+        welcomeText:
+          type: string
+          example: 這是中華電信語音通告系統
+          description: 歡迎詞。只會播放一次，不會受repeat屬性影響。字數長度限制最長200 (中文一個字計算為1，英文單字(word)每個計算為1，數字每個字元計算1，標點與空白不列入計算)。
+        welcomeTextSpeed:
+          type: number
+          example: 0.9
+          description: 設定產生語音檔的說話速度，可設定的數值範圍是0.0~10.0之間。若是promptMode是F或F1時，預設值是0.9，若promptMode是F2或M時，預設值是1.0。
+        text:
+          type: string
+          example: 警告，目前PM2.5超標，請不要外出
+          description: 通告要播放的語音內容，且不可為空，字數長度限制最長200 (中文一個字計算為1，英文單字(word)每個計算為1，數字每個字元計算1，標點與空白不列入計算)。
+        textSpeed:
+          type: number
+          example: 0.9
+          description: 設定產生語音檔的說話速度，可設定的數值範圍是0.0~10.0之間。若是promptMode是F或F1時，預設值是0.9，若promptMode是F2或M時，預設值是1.0。
+        byeText:
+          type: string
+          example: 謝謝您
+          description: 結束詞。只會播放一次，不會受repeat屬性影響。字數長度限制最長200 (中文一個字計算為1，英文單字(word)每個計算為1，數字每個字元計算1，標點與空白不列入計算)。
+        byeTextSpeed:
+          type: number
+          example: 0.9
+          description: 設定產生語音檔的說話速度，可設定的數值範圍是0.0~10.0之間。若是promptMode是F或F1時，預設值是0.9，若promptMode是F2或M時，預設值是1.0。
+        repeat:
+          type: number
+          example: 3
+          description: text通告內容在播放時要重複播放幾次，數值大於等於1，預設值為1，最大值為99。
+        betweenTextRepeatDelay:
+          type: number
+          example: 1
+          description: 若repeat屬性大於等於2，可以使用此屬性設定2個播放語句間要間隔幾秒，預設值為1，最大值為 99，設為 0 代表使用系統預設值。
+        promptMode:
+          type: string
+          example: F
+          description: 填入F、F1(與F相同)、F2則是使用女性聲音播放，填入M則是使用男性聲音播放，預設值是M。
+        node:
+          type: string
+          example: MAIN
+          description: 在使用互動式電話通告，設定為"MAIN"。
+        nextNode:
+          type: string
+          example: CUSTOM
+          description: 在使用互動式電話通告時，設定為"CUSTOM"。若有設定 nextNode 屬性時，其他設定屬性將沒有任何作用，會以MQTT callAction中輸入的訊息為主。
+    Reg:
+      type: object
+      required:
+        - appName
+        - serviceNumber
+        - SNKey
+      properties:
+        appName:
+          type: string
+          example: IoT Tas Demo
+          description: 透過 reg API 申請號碼時輸入的應用程式名稱。
+        appDesc:
+          type: string
+          example: 使用電話選單操作 IoT 裝置
+          description: 透過 reg API 申請號碼時輸入的應用程式描述資料。
+        serviceNumber:
+          type: string
+          example: "028192****"
+          description: 本次租用的電話連結服務號碼。
+        SNKey:
+          type: string
+          example: 6N84P4SRT6V6SQ74D5Q8ES4XZAHC5LNK
+          description: 配合MQTT服務接收此租用電話號碼相關資訊時使用。
+        start:
+          type: string
+          description: 開始租用本服務電話號碼的時間。
+          example: '2019-02-20T09:34:05Z'
+        rentStatus:
+          type: string
+          description: |-
+            服務號碼的狀態。
+            1. Accessible：已租用且正常提供服務，
+            2. Abnormal：電話號碼狀態不正常，
+            3. Lock：號碼已透過 DELETE reg API 凍結服務，暫時無法提供服務。
+          example: Accessible
+          enum:
+            - Accessible
+            - Abnormal
+            - Lock
+  securitySchemes:
+    ApiKeyAuth:        # arbitrary name for the security scheme
+      type: apiKey
+      in: header       # can be "header", "query" or "cookie"
+      name: X-API-Key  # name of the header, query parameter or cookie
+security:
+  - ApiKeyAuth: []

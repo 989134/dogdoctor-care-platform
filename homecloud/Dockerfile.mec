@@ -1,0 +1,27 @@
+FROM python:3.10-slim-bookworm
+
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1 \
+    MEC_EVENT_STORE=/data/mec_events.sqlite3 \
+    CARE_SETTINGS_PATH=/app/care_settings.json
+
+RUN apt-get update && apt-get install -y --no-install-recommends libglib2.0-0 \
+    && rm -rf /var/lib/apt/lists/* \
+    && useradd --create-home --uid 10001 appuser
+
+WORKDIR /app
+COPY requirements-mec.txt ./
+RUN pip install --no-cache-dir -r requirements-mec.txt
+
+COPY mec_service.py mec_wsgi.py care_settings.json ./
+COPY eldertest/care_engine.py eldertest/environment_engine.py ./eldertest/
+
+RUN mkdir -p /data && chown -R appuser:appuser /data /app
+USER appuser
+
+EXPOSE 7000
+HEALTHCHECK --interval=20s --timeout=4s --start-period=30s --retries=3 \
+  CMD python -c "import json,urllib.request; assert json.load(urllib.request.urlopen('http://127.0.0.1:7000/health',timeout=3))['ok']"
+
+CMD ["gunicorn","--bind","0.0.0.0:7000","--workers","1","--threads","4","--timeout","30","--access-logfile","-","--error-logfile","-","mec_wsgi:app"]
+

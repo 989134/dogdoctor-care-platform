@@ -1,0 +1,6 @@
+Flask>=3.0,<4
+gunicorn>=22,<24
+mediapipe==0.10.14
+opencv-python-headless>=4.8,<4.12
+numpy>=1.24,<2
+

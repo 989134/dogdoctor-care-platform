@@ -1,0 +1,15 @@
+=== Patrol Mission Summary ===
+Session ID: 20260223_045754
+Total mission time: 289.20 sec
+Lap count: 9
+Average lap time: 30.60 sec
+
+--- Event Statistics ---
+Stuck events: 23
+Waypoint skip events: 19
+No-go events: 0
+Route deviation events: 18
+Inactivity events: 0
+Checkpoint count: 19
+
+System health evaluation: WARNING

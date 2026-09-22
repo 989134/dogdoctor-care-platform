@@ -1,0 +1,26 @@
+services:
+  homecare-mec:
+    build:
+      context: .
+      dockerfile: Dockerfile.mec
+    image: homecare-mec:1.1.0
+    restart: unless-stopped
+    ports:
+      - "${MEC_PORT:-7000}:7000"
+    environment:
+      MEC_API_TOKEN: "${MEC_API_TOKEN}"
+      MEC_EVENT_STORE: /data/mec_events.sqlite3
+    volumes:
+      - ./mec_data:/data
+    read_only: true
+    tmpfs:
+      - /tmp:size=128m
+    security_opt:
+      - no-new-privileges:true
+    healthcheck:
+      test: ["CMD", "python", "-c", "import json,urllib.request; assert json.load(urllib.request.urlopen('http://127.0.0.1:7000/health',timeout=3))['ok']"]
+      interval: 20s
+      timeout: 4s
+      retries: 3
+      start_period: 30s
+

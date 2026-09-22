@@ -1,0 +1,8 @@
+.venv/
+guardian_data/
+demo_data/
+__pycache__/
+*.pyc
+*.sqlite3
+*.log
+guardian/drug/36_1.xml

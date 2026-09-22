@@ -1,0 +1,20 @@
+=== Known-Map Patrol Mission Summary ===
+Session ID: 20260223_132653
+Total mission time: 45.87 sec
+Lap count: 1
+Average lap time: 11.94 sec
+
+--- Event Statistics ---
+Stuck events: 4
+Waypoint skip events: 4
+No-go events: 0
+Route deviation events: 0
+Checkpoint count: 1
+
+--- Care Monitor ---
+Fall detected: False
+Fall events: 0
+Fall zone: (540, 330, 120, 80)
+Fall hold threshold: 6.0 sec
+
+System health evaluation: WARNING

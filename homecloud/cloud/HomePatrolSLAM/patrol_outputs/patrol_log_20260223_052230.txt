@@ -1,0 +1,2267 @@
+[    1.26s] SYSTEM: start known-map patrol
+[   11.27s] INFO: wp_skip -> wp_i=4
+[   13.21s] LAP_DONE: lap=1 lap_time=11.95s
+[   13.21s] CHECKPOINT: idx=0
+[   23.22s] INFO: wp_skip -> wp_i=4
+[   27.25s] ALERT: stuck -> recovery
+[   32.88s] ALERT: stuck -> recovery
+[   34.48s] INFO: wp_skip -> wp_i=0
+[   39.30s] ALERT: stuck -> recovery
+[   44.49s] INFO: wp_skip -> wp_i=1
+[   46.12s] ALERT: stuck -> recovery
+[   54.51s] INFO: wp_skip -> wp_i=4
+[   58.57s] ALERT: stuck -> recovery
+[   64.20s] ALERT: stuck -> recovery
+[   65.81s] INFO: wp_skip -> wp_i=0
+[   70.68s] ALERT: stuck -> recovery
+[   75.82s] INFO: wp_skip -> wp_i=1
+[   76.35s] ALERT: stuck -> recovery
+[   85.83s] INFO: wp_skip -> wp_i=4
+[   89.89s] ALERT: stuck -> recovery
+[   95.57s] ALERT: stuck -> recovery
+[   97.16s] INFO: wp_skip -> wp_i=0
+[  102.00s] ALERT: stuck -> recovery
+[  107.18s] INFO: wp_skip -> wp_i=1
+[  107.64s] ALERT: stuck -> recovery
+[  117.18s] INFO: wp_skip -> wp_i=4
+[  121.24s] ALERT: stuck -> recovery
+[  126.87s] ALERT: stuck -> recovery
+[  128.47s] INFO: wp_skip -> wp_i=0
+[  133.30s] ALERT: stuck -> recovery
+[  138.47s] INFO: wp_skip -> wp_i=1
+[  138.97s] ALERT: stuck -> recovery
+[  148.49s] INFO: wp_skip -> wp_i=4
+[  152.57s] ALERT: stuck -> recovery
+[  158.22s] ALERT: stuck -> recovery
+[  159.82s] INFO: wp_skip -> wp_i=0
+[  164.68s] ALERT: stuck -> recovery
+[  169.83s] INFO: wp_skip -> wp_i=1
+[  170.35s] ALERT: stuck -> recovery
+[  179.84s] INFO: wp_skip -> wp_i=4
+[  183.85s] ALERT: stuck -> recovery
+[  189.53s] ALERT: stuck -> recovery
+[  191.14s] INFO: wp_skip -> wp_i=0
+[  196.01s] ALERT: stuck -> recovery
+[  201.14s] INFO: wp_skip -> wp_i=1
+[  201.62s] ALERT: stuck -> recovery
+[  211.14s] INFO: wp_skip -> wp_i=4
+[  215.21s] ALERT: stuck -> recovery
+[  220.87s] ALERT: stuck -> recovery
+[  222.48s] INFO: wp_skip -> wp_i=0
+[  227.34s] ALERT: stuck -> recovery
+[  232.48s] INFO: wp_skip -> wp_i=1
+[  232.98s] ALERT: stuck -> recovery
+[  242.49s] INFO: wp_skip -> wp_i=4
+[  246.60s] ALERT: stuck -> recovery
+[  252.28s] ALERT: stuck -> recovery
+[  253.89s] INFO: wp_skip -> wp_i=0
+[  258.76s] ALERT: stuck -> recovery
+[  263.90s] INFO: wp_skip -> wp_i=1
+[  264.36s] ALERT: stuck -> recovery
+[  273.90s] INFO: wp_skip -> wp_i=4
+[  278.01s] ALERT: stuck -> recovery
+[  283.60s] ALERT: stuck -> recovery
+[  285.20s] INFO: wp_skip -> wp_i=0
+[  290.00s] ALERT: stuck -> recovery
+[  295.20s] INFO: wp_skip -> wp_i=1
+[  295.65s] ALERT: stuck -> recovery
+[  305.21s] INFO: wp_skip -> wp_i=4
+[  309.30s] ALERT: stuck -> recovery
+[  314.97s] ALERT: stuck -> recovery
+[  316.56s] INFO: wp_skip -> wp_i=0
+[  321.40s] ALERT: stuck -> recovery
+[  326.56s] INFO: wp_skip -> wp_i=1
+[  327.02s] ALERT: stuck -> recovery
+[  336.56s] INFO: wp_skip -> wp_i=4
+[  340.68s] ALERT: stuck -> recovery
+[  346.32s] ALERT: stuck -> recovery
+[  347.94s] INFO: wp_skip -> wp_i=0
+[  352.85s] ALERT: stuck -> recovery
+[  357.94s] INFO: wp_skip -> wp_i=1
+[  358.50s] ALERT: stuck -> recovery
+[  367.95s] INFO: wp_skip -> wp_i=4
+[  372.04s] ALERT: stuck -> recovery
+[  377.71s] ALERT: stuck -> recovery
+[  379.31s] INFO: wp_skip -> wp_i=0
+[  384.14s] ALERT: stuck -> recovery
+[  389.31s] INFO: wp_skip -> wp_i=1
+[  389.82s] ALERT: stuck -> recovery
+[  399.32s] INFO: wp_skip -> wp_i=4
+[  403.41s] ALERT: stuck -> recovery
+[  409.03s] ALERT: stuck -> recovery
+[  410.64s] INFO: wp_skip -> wp_i=0
+[  415.39s] ALERT: stuck -> recovery
+[  420.64s] INFO: wp_skip -> wp_i=1
+[  421.10s] ALERT: stuck -> recovery
+[  430.64s] INFO: wp_skip -> wp_i=4
+[  434.74s] ALERT: stuck -> recovery
+[  440.40s] ALERT: stuck -> recovery
+[  442.00s] INFO: wp_skip -> wp_i=0
+[  446.87s] ALERT: stuck -> recovery
+[  452.01s] INFO: wp_skip -> wp_i=1
+[  452.47s] ALERT: stuck -> recovery
+[  462.02s] INFO: wp_skip -> wp_i=4
+[  466.08s] ALERT: stuck -> recovery
+[  471.71s] ALERT: stuck -> recovery
+[  473.30s] INFO: wp_skip -> wp_i=0
+[  478.17s] ALERT: stuck -> recovery
+[  483.31s] INFO: wp_skip -> wp_i=1
+[  483.79s] ALERT: stuck -> recovery
+[  493.31s] INFO: wp_skip -> wp_i=4
+[  497.28s] ALERT: stuck -> recovery
+[  502.94s] ALERT: stuck -> recovery
+[  504.54s] INFO: wp_skip -> wp_i=0
+[  509.34s] ALERT: stuck -> recovery
+[  514.55s] INFO: wp_skip -> wp_i=1
+[  515.02s] ALERT: stuck -> recovery
+[  524.55s] INFO: wp_skip -> wp_i=4
+[  528.62s] ALERT: stuck -> recovery
+[  534.28s] ALERT: stuck -> recovery
+[  535.87s] INFO: wp_skip -> wp_i=0
+[  540.73s] ALERT: stuck -> recovery
+[  545.88s] INFO: wp_skip -> wp_i=1
+[  546.41s] ALERT: stuck -> recovery
+[  555.88s] INFO: wp_skip -> wp_i=4
+[  559.96s] ALERT: stuck -> recovery
+[  565.63s] ALERT: stuck -> recovery
+[  567.23s] INFO: wp_skip -> wp_i=0
+[  572.08s] ALERT: stuck -> recovery
+[  577.24s] INFO: wp_skip -> wp_i=1
+[  577.72s] ALERT: stuck -> recovery
+[  587.24s] INFO: wp_skip -> wp_i=4
+[  591.33s] ALERT: stuck -> recovery
+[  597.00s] ALERT: stuck -> recovery
+[  598.61s] INFO: wp_skip -> wp_i=0
+[  603.45s] ALERT: stuck -> recovery
+[  608.61s] INFO: wp_skip -> wp_i=1
+[  609.09s] ALERT: stuck -> recovery
+[  618.62s] INFO: wp_skip -> wp_i=4
+[  622.69s] ALERT: stuck -> recovery
+[  628.39s] ALERT: stuck -> recovery
+[  630.00s] INFO: wp_skip -> wp_i=0
+[  634.77s] ALERT: stuck -> recovery
+[  640.01s] INFO: wp_skip -> wp_i=1
+[  640.48s] ALERT: stuck -> recovery
+[  650.03s] INFO: wp_skip -> wp_i=4
+[  654.05s] ALERT: stuck -> recovery
+[  659.76s] ALERT: stuck -> recovery
+[  661.37s] INFO: wp_skip -> wp_i=0
+[  666.18s] ALERT: stuck -> recovery
+[  671.38s] INFO: wp_skip -> wp_i=1
+[  671.85s] ALERT: stuck -> recovery
+[  681.38s] INFO: wp_skip -> wp_i=4
+[  685.44s] ALERT: stuck -> recovery
+[  691.05s] ALERT: stuck -> recovery
+[  692.66s] INFO: wp_skip -> wp_i=0
+[  697.54s] ALERT: stuck -> recovery
+[  702.66s] INFO: wp_skip -> wp_i=1
+[  703.18s] ALERT: stuck -> recovery
+[  712.67s] INFO: wp_skip -> wp_i=4
+[  716.73s] ALERT: stuck -> recovery
+[  722.38s] ALERT: stuck -> recovery
+[  723.98s] INFO: wp_skip -> wp_i=0
+[  728.83s] ALERT: stuck -> recovery
+[  733.98s] INFO: wp_skip -> wp_i=1
+[  734.52s] ALERT: stuck -> recovery
+[  743.98s] INFO: wp_skip -> wp_i=4
+[  748.10s] ALERT: stuck -> recovery
+[  753.76s] ALERT: stuck -> recovery
+[  755.37s] INFO: wp_skip -> wp_i=0
+[  760.17s] ALERT: stuck -> recovery
+[  765.38s] INFO: wp_skip -> wp_i=1
+[  765.84s] ALERT: stuck -> recovery
+[  775.38s] INFO: wp_skip -> wp_i=4
+[  779.49s] ALERT: stuck -> recovery
+[  785.17s] ALERT: stuck -> recovery
+[  786.77s] INFO: wp_skip -> wp_i=0
+[  791.60s] ALERT: stuck -> recovery
+[  796.77s] INFO: wp_skip -> wp_i=1
+[  797.24s] ALERT: stuck -> recovery
+[  806.77s] INFO: wp_skip -> wp_i=4
+[  810.84s] ALERT: stuck -> recovery
+[  816.51s] ALERT: stuck -> recovery
+[  818.12s] INFO: wp_skip -> wp_i=0
+[  823.02s] ALERT: stuck -> recovery
+[  828.13s] INFO: wp_skip -> wp_i=1
+[  828.64s] ALERT: stuck -> recovery
+[  838.13s] INFO: wp_skip -> wp_i=4
+[  842.21s] ALERT: stuck -> recovery
+[  847.94s] ALERT: stuck -> recovery
+[  849.53s] INFO: wp_skip -> wp_i=0
+[  854.37s] ALERT: stuck -> recovery
+[  859.54s] INFO: wp_skip -> wp_i=1
+[  860.00s] ALERT: stuck -> recovery
+[  869.54s] INFO: wp_skip -> wp_i=4
+[  873.68s] ALERT: stuck -> recovery
+[  879.33s] ALERT: stuck -> recovery
+[  880.93s] INFO: wp_skip -> wp_i=0
+[  885.79s] ALERT: stuck -> recovery
+[  890.94s] INFO: wp_skip -> wp_i=1
+[  891.41s] ALERT: stuck -> recovery
+[  900.95s] INFO: wp_skip -> wp_i=4
+[  905.01s] ALERT: stuck -> recovery
+[  910.70s] ALERT: stuck -> recovery
+[  912.30s] INFO: wp_skip -> wp_i=0
+[  917.09s] ALERT: stuck -> recovery
+[  922.31s] INFO: wp_skip -> wp_i=1
+[  922.77s] ALERT: stuck -> recovery
+[  932.31s] INFO: wp_skip -> wp_i=4
+[  936.38s] ALERT: stuck -> recovery
+[  942.03s] ALERT: stuck -> recovery
+[  943.63s] INFO: wp_skip -> wp_i=0
+[  948.44s] ALERT: stuck -> recovery
+[  953.64s] INFO: wp_skip -> wp_i=1
+[  954.11s] ALERT: stuck -> recovery
+[  963.65s] INFO: wp_skip -> wp_i=4
+[  967.72s] ALERT: stuck -> recovery
+[  973.35s] ALERT: stuck -> recovery
+[  974.96s] INFO: wp_skip -> wp_i=0
+[  979.76s] ALERT: stuck -> recovery
+[  984.97s] INFO: wp_skip -> wp_i=1
+[  985.43s] ALERT: stuck -> recovery
+[  994.98s] INFO: wp_skip -> wp_i=4
+[  999.07s] ALERT: stuck -> recovery
+[ 1004.73s] ALERT: stuck -> recovery
+[ 1006.33s] INFO: wp_skip -> wp_i=0
+[ 1011.16s] ALERT: stuck -> recovery
+[ 1016.35s] INFO: wp_skip -> wp_i=1
+[ 1016.84s] ALERT: stuck -> recovery
+[ 1026.36s] INFO: wp_skip -> wp_i=4
+[ 1030.47s] ALERT: stuck -> recovery
+[ 1036.10s] ALERT: stuck -> recovery
+[ 1037.71s] INFO: wp_skip -> wp_i=0
+[ 1042.58s] ALERT: stuck -> recovery
+[ 1047.72s] INFO: wp_skip -> wp_i=1
+[ 1048.20s] ALERT: stuck -> recovery
+[ 1057.72s] INFO: wp_skip -> wp_i=4
+[ 1061.78s] ALERT: stuck -> recovery
+[ 1067.43s] ALERT: stuck -> recovery
+[ 1069.02s] INFO: wp_skip -> wp_i=0
+[ 1073.87s] ALERT: stuck -> recovery
+[ 1079.03s] INFO: wp_skip -> wp_i=1
+[ 1079.51s] ALERT: stuck -> recovery
+[ 1089.04s] INFO: wp_skip -> wp_i=4
+[ 1093.13s] ALERT: stuck -> recovery
+[ 1098.78s] ALERT: stuck -> recovery
+[ 1100.38s] INFO: wp_skip -> wp_i=0
+[ 1105.18s] ALERT: stuck -> recovery
+[ 1110.38s] INFO: wp_skip -> wp_i=1
+[ 1110.84s] ALERT: stuck -> recovery
+[ 1120.38s] INFO: wp_skip -> wp_i=4
+[ 1124.48s] ALERT: stuck -> recovery
+[ 1130.16s] ALERT: stuck -> recovery
+[ 1131.77s] INFO: wp_skip -> wp_i=0
+[ 1136.59s] ALERT: stuck -> recovery
+[ 1141.77s] INFO: wp_skip -> wp_i=1
+[ 1142.23s] ALERT: stuck -> recovery
+[ 1151.77s] INFO: wp_skip -> wp_i=4
+[ 1155.89s] ALERT: stuck -> recovery
+[ 1161.57s] ALERT: stuck -> recovery
+[ 1163.18s] INFO: wp_skip -> wp_i=0
+[ 1168.03s] ALERT: stuck -> recovery
+[ 1173.19s] INFO: wp_skip -> wp_i=1
+[ 1173.65s] ALERT: stuck -> recovery
+[ 1183.20s] INFO: wp_skip -> wp_i=4
+[ 1187.25s] ALERT: stuck -> recovery
+[ 1192.90s] ALERT: stuck -> recovery
+[ 1194.50s] INFO: wp_skip -> wp_i=0
+[ 1199.32s] ALERT: stuck -> recovery
+[ 1204.51s] INFO: wp_skip -> wp_i=1
+[ 1204.97s] ALERT: stuck -> recovery
+[ 1214.52s] INFO: wp_skip -> wp_i=4
+[ 1218.61s] ALERT: stuck -> recovery
+[ 1224.28s] ALERT: stuck -> recovery
+[ 1225.88s] INFO: wp_skip -> wp_i=0
+[ 1230.73s] ALERT: stuck -> recovery
+[ 1235.88s] INFO: wp_skip -> wp_i=1
+[ 1236.39s] ALERT: stuck -> recovery
+[ 1245.88s] INFO: wp_skip -> wp_i=4
+[ 1249.98s] ALERT: stuck -> recovery
+[ 1255.65s] ALERT: stuck -> recovery
+[ 1257.25s] INFO: wp_skip -> wp_i=0
+[ 1262.08s] ALERT: stuck -> recovery
+[ 1267.25s] INFO: wp_skip -> wp_i=1
+[ 1267.75s] ALERT: stuck -> recovery
+[ 1277.26s] INFO: wp_skip -> wp_i=4
+[ 1281.33s] ALERT: stuck -> recovery
+[ 1287.02s] ALERT: stuck -> recovery
+[ 1288.62s] INFO: wp_skip -> wp_i=0
+[ 1293.43s] ALERT: stuck -> recovery
+[ 1298.62s] INFO: wp_skip -> wp_i=1
+[ 1299.10s] ALERT: stuck -> recovery
+[ 1308.63s] INFO: wp_skip -> wp_i=4
+[ 1312.71s] ALERT: stuck -> recovery
+[ 1318.39s] ALERT: stuck -> recovery
+[ 1320.00s] INFO: wp_skip -> wp_i=0
+[ 1324.83s] ALERT: stuck -> recovery
+[ 1330.00s] INFO: wp_skip -> wp_i=1
+[ 1330.47s] ALERT: stuck -> recovery
+[ 1340.02s] INFO: wp_skip -> wp_i=4
+[ 1344.10s] ALERT: stuck -> recovery
+[ 1349.79s] ALERT: stuck -> recovery
+[ 1351.39s] INFO: wp_skip -> wp_i=0
+[ 1356.27s] ALERT: stuck -> recovery
+[ 1361.39s] INFO: wp_skip -> wp_i=1
+[ 1361.90s] ALERT: stuck -> recovery
+[ 1371.40s] INFO: wp_skip -> wp_i=4
+[ 1375.44s] ALERT: stuck -> recovery
+[ 1381.12s] ALERT: stuck -> recovery
+[ 1382.72s] INFO: wp_skip -> wp_i=0
+[ 1387.53s] ALERT: stuck -> recovery
+[ 1392.72s] INFO: wp_skip -> wp_i=1
+[ 1393.20s] ALERT: stuck -> recovery
+[ 1402.72s] INFO: wp_skip -> wp_i=4
+[ 1406.83s] ALERT: stuck -> recovery
+[ 1412.52s] ALERT: stuck -> recovery
+[ 1414.12s] INFO: wp_skip -> wp_i=0
+[ 1419.01s] ALERT: stuck -> recovery
+[ 1424.12s] INFO: wp_skip -> wp_i=1
+[ 1424.58s] ALERT: stuck -> recovery
+[ 1434.12s] INFO: wp_skip -> wp_i=4
+[ 1438.17s] ALERT: stuck -> recovery
+[ 1443.80s] ALERT: stuck -> recovery
+[ 1445.40s] INFO: wp_skip -> wp_i=0
+[ 1450.19s] ALERT: stuck -> recovery
+[ 1455.41s] INFO: wp_skip -> wp_i=1
+[ 1455.87s] ALERT: stuck -> recovery
+[ 1465.41s] INFO: wp_skip -> wp_i=4
+[ 1469.49s] ALERT: stuck -> recovery
+[ 1475.21s] ALERT: stuck -> recovery
+[ 1476.81s] INFO: wp_skip -> wp_i=0
+[ 1481.63s] ALERT: stuck -> recovery
+[ 1486.82s] INFO: wp_skip -> wp_i=1
+[ 1487.31s] ALERT: stuck -> recovery
+[ 1496.84s] INFO: wp_skip -> wp_i=4
+[ 1500.91s] ALERT: stuck -> recovery
+[ 1506.60s] ALERT: stuck -> recovery
+[ 1508.19s] INFO: wp_skip -> wp_i=0
+[ 1513.04s] ALERT: stuck -> recovery
+[ 1518.20s] INFO: wp_skip -> wp_i=1
+[ 1518.66s] ALERT: stuck -> recovery
+[ 1528.21s] INFO: wp_skip -> wp_i=4
+[ 1532.29s] ALERT: stuck -> recovery
+[ 1537.96s] ALERT: stuck -> recovery
+[ 1539.56s] INFO: wp_skip -> wp_i=0
+[ 1544.40s] ALERT: stuck -> recovery
+[ 1549.57s] INFO: wp_skip -> wp_i=1
+[ 1550.09s] ALERT: stuck -> recovery
+[ 1559.57s] INFO: wp_skip -> wp_i=4
+[ 1563.66s] ALERT: stuck -> recovery
+[ 1569.33s] ALERT: stuck -> recovery
+[ 1570.93s] INFO: wp_skip -> wp_i=0
+[ 1575.77s] ALERT: stuck -> recovery
+[ 1580.94s] INFO: wp_skip -> wp_i=1
+[ 1581.45s] ALERT: stuck -> recovery
+[ 1590.95s] INFO: wp_skip -> wp_i=4
+[ 1595.02s] ALERT: stuck -> recovery
+[ 1600.70s] ALERT: stuck -> recovery
+[ 1602.30s] INFO: wp_skip -> wp_i=0
+[ 1607.12s] ALERT: stuck -> recovery
+[ 1612.31s] INFO: wp_skip -> wp_i=1
+[ 1612.80s] ALERT: stuck -> recovery
+[ 1622.33s] INFO: wp_skip -> wp_i=4
+[ 1626.42s] ALERT: stuck -> recovery
+[ 1632.06s] ALERT: stuck -> recovery
+[ 1633.66s] INFO: wp_skip -> wp_i=0
+[ 1638.53s] ALERT: stuck -> recovery
+[ 1643.67s] INFO: wp_skip -> wp_i=1
+[ 1644.16s] ALERT: stuck -> recovery
+[ 1653.68s] INFO: wp_skip -> wp_i=4
+[ 1657.76s] ALERT: stuck -> recovery
+[ 1663.45s] ALERT: stuck -> recovery
+[ 1665.05s] INFO: wp_skip -> wp_i=0
+[ 1669.89s] ALERT: stuck -> recovery
+[ 1675.05s] INFO: wp_skip -> wp_i=1
+[ 1675.52s] ALERT: stuck -> recovery
+[ 1685.06s] INFO: wp_skip -> wp_i=4
+[ 1689.13s] ALERT: stuck -> recovery
+[ 1694.78s] ALERT: stuck -> recovery
+[ 1696.38s] INFO: wp_skip -> wp_i=0
+[ 1701.21s] ALERT: stuck -> recovery
+[ 1706.38s] INFO: wp_skip -> wp_i=1
+[ 1706.88s] ALERT: stuck -> recovery
+[ 1716.38s] INFO: wp_skip -> wp_i=4
+[ 1720.47s] ALERT: stuck -> recovery
+[ 1726.14s] ALERT: stuck -> recovery
+[ 1727.73s] INFO: wp_skip -> wp_i=0
+[ 1732.54s] ALERT: stuck -> recovery
+[ 1737.74s] INFO: wp_skip -> wp_i=1
+[ 1738.20s] ALERT: stuck -> recovery
+[ 1747.75s] INFO: wp_skip -> wp_i=4
+[ 1751.77s] ALERT: stuck -> recovery
+[ 1757.48s] ALERT: stuck -> recovery
+[ 1759.09s] INFO: wp_skip -> wp_i=0
+[ 1763.89s] ALERT: stuck -> recovery
+[ 1769.10s] INFO: wp_skip -> wp_i=1
+[ 1769.56s] ALERT: stuck -> recovery
+[ 1779.10s] INFO: wp_skip -> wp_i=4
+[ 1783.22s] ALERT: stuck -> recovery
+[ 1788.86s] ALERT: stuck -> recovery
+[ 1790.46s] INFO: wp_skip -> wp_i=0
+[ 1795.30s] ALERT: stuck -> recovery
+[ 1800.47s] INFO: wp_skip -> wp_i=1
+[ 1800.97s] ALERT: stuck -> recovery
+[ 1810.47s] INFO: wp_skip -> wp_i=4
+[ 1814.56s] ALERT: stuck -> recovery
+[ 1820.21s] ALERT: stuck -> recovery
+[ 1821.82s] INFO: wp_skip -> wp_i=0
+[ 1826.65s] ALERT: stuck -> recovery
+[ 1831.82s] INFO: wp_skip -> wp_i=1
+[ 1832.32s] ALERT: stuck -> recovery
+[ 1841.82s] INFO: wp_skip -> wp_i=4
+[ 1845.90s] ALERT: stuck -> recovery
+[ 1851.52s] ALERT: stuck -> recovery
+[ 1853.11s] INFO: wp_skip -> wp_i=0
+[ 1857.98s] ALERT: stuck -> recovery
+[ 1863.12s] INFO: wp_skip -> wp_i=1
+[ 1863.61s] ALERT: stuck -> recovery
+[ 1873.13s] INFO: wp_skip -> wp_i=4
+[ 1877.22s] ALERT: stuck -> recovery
+[ 1882.93s] ALERT: stuck -> recovery
+[ 1884.54s] INFO: wp_skip -> wp_i=0
+[ 1889.38s] ALERT: stuck -> recovery
+[ 1894.55s] INFO: wp_skip -> wp_i=1
+[ 1895.01s] ALERT: stuck -> recovery
+[ 1904.57s] INFO: wp_skip -> wp_i=4
+[ 1908.64s] ALERT: stuck -> recovery
+[ 1914.28s] ALERT: stuck -> recovery
+[ 1915.88s] INFO: wp_skip -> wp_i=0
+[ 1920.65s] ALERT: stuck -> recovery
+[ 1925.89s] INFO: wp_skip -> wp_i=1
+[ 1926.36s] ALERT: stuck -> recovery
+[ 1935.89s] INFO: wp_skip -> wp_i=4
+[ 1939.99s] ALERT: stuck -> recovery
+[ 1945.61s] ALERT: stuck -> recovery
+[ 1947.21s] INFO: wp_skip -> wp_i=0
+[ 1951.99s] ALERT: stuck -> recovery
+[ 1957.21s] INFO: wp_skip -> wp_i=1
+[ 1957.68s] ALERT: stuck -> recovery
+[ 1967.22s] INFO: wp_skip -> wp_i=4
+[ 1971.28s] ALERT: stuck -> recovery
+[ 1976.90s] ALERT: stuck -> recovery
+[ 1978.49s] INFO: wp_skip -> wp_i=0
+[ 1983.33s] ALERT: stuck -> recovery
+[ 1988.49s] INFO: wp_skip -> wp_i=1
+[ 1988.98s] ALERT: stuck -> recovery
+[ 1998.50s] INFO: wp_skip -> wp_i=4
+[ 2002.57s] ALERT: stuck -> recovery
+[ 2008.24s] ALERT: stuck -> recovery
+[ 2009.85s] INFO: wp_skip -> wp_i=0
+[ 2014.67s] ALERT: stuck -> recovery
+[ 2019.85s] INFO: wp_skip -> wp_i=1
+[ 2020.31s] ALERT: stuck -> recovery
+[ 2029.86s] INFO: wp_skip -> wp_i=4
+[ 2033.89s] ALERT: stuck -> recovery
+[ 2039.58s] ALERT: stuck -> recovery
+[ 2041.17s] INFO: wp_skip -> wp_i=0
+[ 2045.98s] ALERT: stuck -> recovery
+[ 2051.18s] INFO: wp_skip -> wp_i=1
+[ 2051.64s] ALERT: stuck -> recovery
+[ 2061.18s] INFO: wp_skip -> wp_i=4
+[ 2065.22s] ALERT: stuck -> recovery
+[ 2070.90s] ALERT: stuck -> recovery
+[ 2072.50s] INFO: wp_skip -> wp_i=0
+[ 2077.36s] ALERT: stuck -> recovery
+[ 2082.51s] INFO: wp_skip -> wp_i=1
+[ 2083.01s] ALERT: stuck -> recovery
+[ 2092.51s] INFO: wp_skip -> wp_i=4
+[ 2096.58s] ALERT: stuck -> recovery
+[ 2102.23s] ALERT: stuck -> recovery
+[ 2103.82s] INFO: wp_skip -> wp_i=0
+[ 2108.66s] ALERT: stuck -> recovery
+[ 2113.83s] INFO: wp_skip -> wp_i=1
+[ 2114.35s] ALERT: stuck -> recovery
+[ 2123.83s] INFO: wp_skip -> wp_i=4
+[ 2127.94s] ALERT: stuck -> recovery
+[ 2133.60s] ALERT: stuck -> recovery
+[ 2135.20s] INFO: wp_skip -> wp_i=0
+[ 2140.06s] ALERT: stuck -> recovery
+[ 2145.21s] INFO: wp_skip -> wp_i=1
+[ 2145.74s] ALERT: stuck -> recovery
+[ 2155.22s] INFO: wp_skip -> wp_i=4
+[ 2159.30s] ALERT: stuck -> recovery
+[ 2164.97s] ALERT: stuck -> recovery
+[ 2166.56s] INFO: wp_skip -> wp_i=0
+[ 2171.43s] ALERT: stuck -> recovery
+[ 2176.57s] INFO: wp_skip -> wp_i=1
+[ 2177.07s] ALERT: stuck -> recovery
+[ 2186.58s] INFO: wp_skip -> wp_i=4
+[ 2190.66s] ALERT: stuck -> recovery
+[ 2196.32s] ALERT: stuck -> recovery
+[ 2197.92s] INFO: wp_skip -> wp_i=0
+[ 2202.73s] ALERT: stuck -> recovery
+[ 2207.93s] INFO: wp_skip -> wp_i=1
+[ 2208.39s] ALERT: stuck -> recovery
+[ 2217.93s] INFO: wp_skip -> wp_i=4
+[ 2222.04s] ALERT: stuck -> recovery
+[ 2227.57s] ALERT: stuck -> recovery
+[ 2229.19s] INFO: wp_skip -> wp_i=0
+[ 2234.02s] ALERT: stuck -> recovery
+[ 2239.19s] INFO: wp_skip -> wp_i=1
+[ 2239.68s] ALERT: stuck -> recovery
+[ 2249.20s] INFO: wp_skip -> wp_i=4
+[ 2253.28s] ALERT: stuck -> recovery
+[ 2258.93s] ALERT: stuck -> recovery
+[ 2260.54s] INFO: wp_skip -> wp_i=0
+[ 2265.39s] ALERT: stuck -> recovery
+[ 2270.55s] INFO: wp_skip -> wp_i=1
+[ 2271.02s] ALERT: stuck -> recovery
+[ 2280.56s] INFO: wp_skip -> wp_i=4
+[ 2284.62s] ALERT: stuck -> recovery
+[ 2290.29s] ALERT: stuck -> recovery
+[ 2291.89s] INFO: wp_skip -> wp_i=0
+[ 2296.75s] ALERT: stuck -> recovery
+[ 2301.90s] INFO: wp_skip -> wp_i=1
+[ 2302.36s] ALERT: stuck -> recovery
+[ 2311.90s] INFO: wp_skip -> wp_i=4
+[ 2315.98s] ALERT: stuck -> recovery
+[ 2321.61s] ALERT: stuck -> recovery
+[ 2323.21s] INFO: wp_skip -> wp_i=0
+[ 2328.02s] ALERT: stuck -> recovery
+[ 2333.21s] INFO: wp_skip -> wp_i=1
+[ 2333.67s] ALERT: stuck -> recovery
+[ 2343.22s] INFO: wp_skip -> wp_i=4
+[ 2347.34s] ALERT: stuck -> recovery
+[ 2353.01s] ALERT: stuck -> recovery
+[ 2354.61s] INFO: wp_skip -> wp_i=0
+[ 2359.45s] ALERT: stuck -> recovery
+[ 2364.62s] INFO: wp_skip -> wp_i=1
+[ 2365.10s] ALERT: stuck -> recovery
+[ 2374.62s] INFO: wp_skip -> wp_i=4
+[ 2378.72s] ALERT: stuck -> recovery
+[ 2384.35s] ALERT: stuck -> recovery
+[ 2385.95s] INFO: wp_skip -> wp_i=0
+[ 2390.81s] ALERT: stuck -> recovery
+[ 2395.96s] INFO: wp_skip -> wp_i=1
+[ 2396.42s] ALERT: stuck -> recovery
+[ 2405.97s] INFO: wp_skip -> wp_i=4
+[ 2410.05s] ALERT: stuck -> recovery
+[ 2415.74s] ALERT: stuck -> recovery
+[ 2417.34s] INFO: wp_skip -> wp_i=0
+[ 2422.19s] ALERT: stuck -> recovery
+[ 2427.35s] INFO: wp_skip -> wp_i=1
+[ 2427.83s] ALERT: stuck -> recovery
+[ 2437.35s] INFO: wp_skip -> wp_i=4
+[ 2441.39s] ALERT: stuck -> recovery
+[ 2447.07s] ALERT: stuck -> recovery
+[ 2448.67s] INFO: wp_skip -> wp_i=0
+[ 2453.55s] ALERT: stuck -> recovery
+[ 2458.67s] INFO: wp_skip -> wp_i=1
+[ 2459.15s] ALERT: stuck -> recovery
+[ 2468.67s] INFO: wp_skip -> wp_i=4
+[ 2472.74s] ALERT: stuck -> recovery
+[ 2478.36s] ALERT: stuck -> recovery
+[ 2479.96s] INFO: wp_skip -> wp_i=0
+[ 2484.78s] ALERT: stuck -> recovery
+[ 2489.97s] INFO: wp_skip -> wp_i=1
+[ 2490.42s] ALERT: stuck -> recovery
+[ 2499.98s] INFO: wp_skip -> wp_i=4
+[ 2504.11s] ALERT: stuck -> recovery
+[ 2509.74s] ALERT: stuck -> recovery
+[ 2511.34s] INFO: wp_skip -> wp_i=0
+[ 2516.21s] ALERT: stuck -> recovery
+[ 2521.36s] INFO: wp_skip -> wp_i=1
+[ 2521.88s] ALERT: stuck -> recovery
+[ 2531.36s] INFO: wp_skip -> wp_i=4
+[ 2535.45s] ALERT: stuck -> recovery
+[ 2541.07s] ALERT: stuck -> recovery
+[ 2542.68s] INFO: wp_skip -> wp_i=0
+[ 2547.49s] ALERT: stuck -> recovery
+[ 2552.68s] INFO: wp_skip -> wp_i=1
+[ 2553.14s] ALERT: stuck -> recovery
+[ 2562.68s] INFO: wp_skip -> wp_i=4
+[ 2566.78s] ALERT: stuck -> recovery
+[ 2572.44s] ALERT: stuck -> recovery
+[ 2574.04s] INFO: wp_skip -> wp_i=0
+[ 2578.87s] ALERT: stuck -> recovery
+[ 2584.05s] INFO: wp_skip -> wp_i=1
+[ 2584.52s] ALERT: stuck -> recovery
+[ 2594.05s] INFO: wp_skip -> wp_i=4
+[ 2598.15s] ALERT: stuck -> recovery
+[ 2603.85s] ALERT: stuck -> recovery
+[ 2605.45s] INFO: wp_skip -> wp_i=0
+[ 2610.28s] ALERT: stuck -> recovery
+[ 2615.46s] INFO: wp_skip -> wp_i=1
+[ 2615.92s] ALERT: stuck -> recovery
+[ 2625.46s] INFO: wp_skip -> wp_i=4
+[ 2629.57s] ALERT: stuck -> recovery
+[ 2635.25s] ALERT: stuck -> recovery
+[ 2636.86s] INFO: wp_skip -> wp_i=0
+[ 2641.69s] ALERT: stuck -> recovery
+[ 2646.86s] INFO: wp_skip -> wp_i=1
+[ 2647.33s] ALERT: stuck -> recovery
+[ 2656.87s] INFO: wp_skip -> wp_i=4
+[ 2660.95s] ALERT: stuck -> recovery
+[ 2666.64s] ALERT: stuck -> recovery
+[ 2668.24s] INFO: wp_skip -> wp_i=0
+[ 2673.06s] ALERT: stuck -> recovery
+[ 2678.24s] INFO: wp_skip -> wp_i=1
+[ 2678.72s] ALERT: stuck -> recovery
+[ 2688.25s] INFO: wp_skip -> wp_i=4
+[ 2692.29s] ALERT: stuck -> recovery
+[ 2697.95s] ALERT: stuck -> recovery
+[ 2699.54s] INFO: wp_skip -> wp_i=0
+[ 2704.35s] ALERT: stuck -> recovery
+[ 2709.55s] INFO: wp_skip -> wp_i=1
+[ 2710.01s] ALERT: stuck -> recovery
+[ 2719.56s] INFO: wp_skip -> wp_i=4
+[ 2723.65s] ALERT: stuck -> recovery
+[ 2729.30s] ALERT: stuck -> recovery
+[ 2730.91s] INFO: wp_skip -> wp_i=0
+[ 2735.75s] ALERT: stuck -> recovery
+[ 2740.91s] INFO: wp_skip -> wp_i=1
+[ 2741.38s] ALERT: stuck -> recovery
+[ 2750.92s] INFO: wp_skip -> wp_i=4
+[ 2754.99s] ALERT: stuck -> recovery
+[ 2760.61s] ALERT: stuck -> recovery
+[ 2762.21s] INFO: wp_skip -> wp_i=0
+[ 2767.04s] ALERT: stuck -> recovery
+[ 2772.22s] INFO: wp_skip -> wp_i=1
+[ 2772.68s] ALERT: stuck -> recovery
+[ 2782.22s] INFO: wp_skip -> wp_i=4
+[ 2786.28s] ALERT: stuck -> recovery
+[ 2791.94s] ALERT: stuck -> recovery
+[ 2793.54s] INFO: wp_skip -> wp_i=0
+[ 2798.41s] ALERT: stuck -> recovery
+[ 2803.54s] INFO: wp_skip -> wp_i=1
+[ 2804.02s] ALERT: stuck -> recovery
+[ 2813.55s] INFO: wp_skip -> wp_i=4
+[ 2817.61s] ALERT: stuck -> recovery
+[ 2823.28s] ALERT: stuck -> recovery
+[ 2824.89s] INFO: wp_skip -> wp_i=0
+[ 2829.70s] ALERT: stuck -> recovery
+[ 2834.89s] INFO: wp_skip -> wp_i=1
+[ 2835.37s] ALERT: stuck -> recovery
+[ 2844.90s] INFO: wp_skip -> wp_i=4
+[ 2848.97s] ALERT: stuck -> recovery
+[ 2854.63s] ALERT: stuck -> recovery
+[ 2856.24s] INFO: wp_skip -> wp_i=0
+[ 2861.09s] ALERT: stuck -> recovery
+[ 2866.25s] INFO: wp_skip -> wp_i=1
+[ 2866.71s] ALERT: stuck -> recovery
+[ 2876.26s] INFO: wp_skip -> wp_i=4
+[ 2880.28s] ALERT: stuck -> recovery
+[ 2885.98s] ALERT: stuck -> recovery
+[ 2887.57s] INFO: wp_skip -> wp_i=0
+[ 2892.37s] ALERT: stuck -> recovery
+[ 2897.59s] INFO: wp_skip -> wp_i=1
+[ 2898.06s] ALERT: stuck -> recovery
+[ 2907.60s] INFO: wp_skip -> wp_i=4
+[ 2911.63s] ALERT: stuck -> recovery
+[ 2917.33s] ALERT: stuck -> recovery
+[ 2918.93s] INFO: wp_skip -> wp_i=0
+[ 2923.73s] ALERT: stuck -> recovery
+[ 2928.93s] INFO: wp_skip -> wp_i=1
+[ 2929.40s] ALERT: stuck -> recovery
+[ 2938.93s] INFO: wp_skip -> wp_i=4
+[ 2943.06s] ALERT: stuck -> recovery
+[ 2948.72s] ALERT: stuck -> recovery
+[ 2950.33s] INFO: wp_skip -> wp_i=0
+[ 2955.17s] ALERT: stuck -> recovery
+[ 2960.33s] INFO: wp_skip -> wp_i=1
+[ 2960.79s] ALERT: stuck -> recovery
+[ 2970.33s] INFO: wp_skip -> wp_i=4
+[ 2974.39s] ALERT: stuck -> recovery
+[ 2980.09s] ALERT: stuck -> recovery
+[ 2981.70s] INFO: wp_skip -> wp_i=0
+[ 2986.57s] ALERT: stuck -> recovery
+[ 2991.71s] INFO: wp_skip -> wp_i=1
+[ 2992.27s] ALERT: stuck -> recovery
+[ 3001.71s] INFO: wp_skip -> wp_i=4
+[ 3005.79s] ALERT: stuck -> recovery
+[ 3011.44s] ALERT: stuck -> recovery
+[ 3013.04s] INFO: wp_skip -> wp_i=0
+[ 3017.88s] ALERT: stuck -> recovery
+[ 3023.05s] INFO: wp_skip -> wp_i=1
+[ 3023.51s] ALERT: stuck -> recovery
+[ 3033.06s] INFO: wp_skip -> wp_i=4
+[ 3037.08s] ALERT: stuck -> recovery
+[ 3042.73s] ALERT: stuck -> recovery
+[ 3044.34s] INFO: wp_skip -> wp_i=0
+[ 3049.21s] ALERT: stuck -> recovery
+[ 3054.34s] INFO: wp_skip -> wp_i=1
+[ 3054.88s] ALERT: stuck -> recovery
+[ 3064.36s] INFO: wp_skip -> wp_i=4
+[ 3068.44s] ALERT: stuck -> recovery
+[ 3074.09s] ALERT: stuck -> recovery
+[ 3075.70s] INFO: wp_skip -> wp_i=0
+[ 3080.59s] ALERT: stuck -> recovery
+[ 3085.71s] INFO: wp_skip -> wp_i=1
+[ 3086.19s] ALERT: stuck -> recovery
+[ 3095.71s] INFO: wp_skip -> wp_i=4
+[ 3099.77s] ALERT: stuck -> recovery
+[ 3105.40s] ALERT: stuck -> recovery
+[ 3107.01s] INFO: wp_skip -> wp_i=0
+[ 3111.83s] ALERT: stuck -> recovery
+[ 3117.01s] INFO: wp_skip -> wp_i=1
+[ 3117.49s] ALERT: stuck -> recovery
+[ 3127.02s] INFO: wp_skip -> wp_i=4
+[ 3131.09s] ALERT: stuck -> recovery
+[ 3136.77s] ALERT: stuck -> recovery
+[ 3138.38s] INFO: wp_skip -> wp_i=0
+[ 3143.25s] ALERT: stuck -> recovery
+[ 3148.38s] INFO: wp_skip -> wp_i=1
+[ 3148.86s] ALERT: stuck -> recovery
+[ 3158.39s] INFO: wp_skip -> wp_i=4
+[ 3162.51s] ALERT: stuck -> recovery
+[ 3168.17s] ALERT: stuck -> recovery
+[ 3169.77s] INFO: wp_skip -> wp_i=0
+[ 3174.59s] ALERT: stuck -> recovery
+[ 3179.77s] INFO: wp_skip -> wp_i=1
+[ 3180.24s] ALERT: stuck -> recovery
+[ 3189.77s] INFO: wp_skip -> wp_i=4
+[ 3193.86s] ALERT: stuck -> recovery
+[ 3199.44s] ALERT: stuck -> recovery
+[ 3201.04s] INFO: wp_skip -> wp_i=0
+[ 3205.87s] ALERT: stuck -> recovery
+[ 3211.05s] INFO: wp_skip -> wp_i=1
+[ 3211.52s] ALERT: stuck -> recovery
+[ 3221.06s] INFO: wp_skip -> wp_i=4
+[ 3225.17s] ALERT: stuck -> recovery
+[ 3230.79s] ALERT: stuck -> recovery
+[ 3232.39s] INFO: wp_skip -> wp_i=0
+[ 3237.26s] ALERT: stuck -> recovery
+[ 3242.39s] INFO: wp_skip -> wp_i=1
+[ 3242.95s] ALERT: stuck -> recovery
+[ 3252.41s] INFO: wp_skip -> wp_i=4
+[ 3256.48s] ALERT: stuck -> recovery
+[ 3262.12s] ALERT: stuck -> recovery
+[ 3263.73s] INFO: wp_skip -> wp_i=0
+[ 3268.52s] ALERT: stuck -> recovery
+[ 3273.74s] INFO: wp_skip -> wp_i=1
+[ 3274.21s] ALERT: stuck -> recovery
+[ 3283.74s] INFO: wp_skip -> wp_i=4
+[ 3287.79s] ALERT: stuck -> recovery
+[ 3293.51s] ALERT: stuck -> recovery
+[ 3295.11s] INFO: wp_skip -> wp_i=0
+[ 3299.95s] ALERT: stuck -> recovery
+[ 3305.12s] INFO: wp_skip -> wp_i=1
+[ 3305.60s] ALERT: stuck -> recovery
+[ 3315.12s] INFO: wp_skip -> wp_i=4
+[ 3319.20s] ALERT: stuck -> recovery
+[ 3324.82s] ALERT: stuck -> recovery
+[ 3326.43s] INFO: wp_skip -> wp_i=0
+[ 3331.30s] ALERT: stuck -> recovery
+[ 3336.44s] INFO: wp_skip -> wp_i=1
+[ 3336.94s] ALERT: stuck -> recovery
+[ 3346.45s] INFO: wp_skip -> wp_i=4
+[ 3350.55s] ALERT: stuck -> recovery
+[ 3356.18s] ALERT: stuck -> recovery
+[ 3357.78s] INFO: wp_skip -> wp_i=0
+[ 3362.60s] ALERT: stuck -> recovery
+[ 3367.79s] INFO: wp_skip -> wp_i=1
+[ 3368.25s] ALERT: stuck -> recovery
+[ 3377.80s] INFO: wp_skip -> wp_i=4
+[ 3381.88s] ALERT: stuck -> recovery
+[ 3387.56s] ALERT: stuck -> recovery
+[ 3389.16s] INFO: wp_skip -> wp_i=0
+[ 3394.05s] ALERT: stuck -> recovery
+[ 3399.17s] INFO: wp_skip -> wp_i=1
+[ 3399.68s] ALERT: stuck -> recovery
+[ 3409.17s] INFO: wp_skip -> wp_i=4
+[ 3413.26s] ALERT: stuck -> recovery
+[ 3418.93s] ALERT: stuck -> recovery
+[ 3420.52s] INFO: wp_skip -> wp_i=0
+[ 3425.40s] ALERT: stuck -> recovery
+[ 3430.53s] INFO: wp_skip -> wp_i=1
+[ 3430.99s] ALERT: stuck -> recovery
+[ 3440.54s] INFO: wp_skip -> wp_i=4
+[ 3444.61s] ALERT: stuck -> recovery
+[ 3450.28s] ALERT: stuck -> recovery
+[ 3451.88s] INFO: wp_skip -> wp_i=0
+[ 3456.66s] ALERT: stuck -> recovery
+[ 3461.89s] INFO: wp_skip -> wp_i=1
+[ 3462.35s] ALERT: stuck -> recovery
+[ 3471.89s] INFO: wp_skip -> wp_i=4
+[ 3475.95s] ALERT: stuck -> recovery
+[ 3481.60s] ALERT: stuck -> recovery
+[ 3483.19s] INFO: wp_skip -> wp_i=0
+[ 3488.03s] ALERT: stuck -> recovery
+[ 3493.20s] INFO: wp_skip -> wp_i=1
+[ 3493.67s] ALERT: stuck -> recovery
+[ 3503.21s] INFO: wp_skip -> wp_i=4
+[ 3507.27s] ALERT: stuck -> recovery
+[ 3512.92s] ALERT: stuck -> recovery
+[ 3514.52s] INFO: wp_skip -> wp_i=0
+[ 3519.39s] ALERT: stuck -> recovery
+[ 3524.53s] INFO: wp_skip -> wp_i=1
+[ 3524.99s] ALERT: stuck -> recovery
+[ 3534.53s] INFO: wp_skip -> wp_i=4
+[ 3538.58s] ALERT: stuck -> recovery
+[ 3544.21s] ALERT: stuck -> recovery
+[ 3545.81s] INFO: wp_skip -> wp_i=0
+[ 3550.65s] ALERT: stuck -> recovery
+[ 3555.82s] INFO: wp_skip -> wp_i=1
+[ 3556.28s] ALERT: stuck -> recovery
+[ 3565.82s] INFO: wp_skip -> wp_i=4
+[ 3569.86s] ALERT: stuck -> recovery
+[ 3575.55s] ALERT: stuck -> recovery
+[ 3577.16s] INFO: wp_skip -> wp_i=0
+[ 3581.99s] ALERT: stuck -> recovery
+[ 3587.16s] INFO: wp_skip -> wp_i=1
+[ 3587.66s] ALERT: stuck -> recovery
+[ 3597.17s] INFO: wp_skip -> wp_i=4
+[ 3601.21s] ALERT: stuck -> recovery
+[ 3606.90s] ALERT: stuck -> recovery
+[ 3608.51s] INFO: wp_skip -> wp_i=0
+[ 3613.32s] ALERT: stuck -> recovery
+[ 3618.51s] INFO: wp_skip -> wp_i=1
+[ 3619.04s] ALERT: stuck -> recovery
+[ 3628.52s] INFO: wp_skip -> wp_i=4
+[ 3632.62s] ALERT: stuck -> recovery
+[ 3638.30s] ALERT: stuck -> recovery
+[ 3639.90s] INFO: wp_skip -> wp_i=0
+[ 3644.72s] ALERT: stuck -> recovery
+[ 3649.91s] INFO: wp_skip -> wp_i=1
+[ 3650.40s] ALERT: stuck -> recovery
+[ 3659.91s] INFO: wp_skip -> wp_i=4
+[ 3661.97s] LAP_DONE: lap=2 lap_time=3648.76s
+[ 3661.99s] CHECKPOINT: idx=0
+[ 3671.99s] INFO: wp_skip -> wp_i=4
+[ 3676.08s] ALERT: stuck -> recovery
+[ 3681.72s] ALERT: stuck -> recovery
+[ 3683.32s] INFO: wp_skip -> wp_i=0
+[ 3688.17s] ALERT: stuck -> recovery
+[ 3693.32s] INFO: wp_skip -> wp_i=1
+[ 3693.84s] ALERT: stuck -> recovery
+[ 3703.32s] INFO: wp_skip -> wp_i=4
+[ 3707.41s] ALERT: stuck -> recovery
+[ 3713.03s] ALERT: stuck -> recovery
+[ 3714.64s] INFO: wp_skip -> wp_i=0
+[ 3719.45s] ALERT: stuck -> recovery
+[ 3724.64s] INFO: wp_skip -> wp_i=1
+[ 3725.11s] ALERT: stuck -> recovery
+[ 3734.65s] INFO: wp_skip -> wp_i=4
+[ 3738.73s] ALERT: stuck -> recovery
+[ 3744.39s] ALERT: stuck -> recovery
+[ 3745.99s] INFO: wp_skip -> wp_i=0
+[ 3750.77s] ALERT: stuck -> recovery
+[ 3755.99s] INFO: wp_skip -> wp_i=1
+[ 3756.45s] ALERT: stuck -> recovery
+[ 3765.99s] INFO: wp_skip -> wp_i=4
+[ 3770.11s] ALERT: stuck -> recovery
+[ 3775.84s] ALERT: stuck -> recovery
+[ 3777.43s] INFO: wp_skip -> wp_i=0
+[ 3782.24s] ALERT: stuck -> recovery
+[ 3787.44s] INFO: wp_skip -> wp_i=1
+[ 3787.93s] ALERT: stuck -> recovery
+[ 3797.45s] INFO: wp_skip -> wp_i=4
+[ 3801.77s] ALERT: stuck -> recovery
+[ 3807.18s] ALERT: stuck -> recovery
+[ 3808.78s] INFO: wp_skip -> wp_i=0
+[ 3813.63s] ALERT: stuck -> recovery
+[ 3818.78s] INFO: wp_skip -> wp_i=1
+[ 3819.24s] ALERT: stuck -> recovery
+[ 3828.79s] INFO: wp_skip -> wp_i=4
+[ 3832.85s] ALERT: stuck -> recovery
+[ 3838.49s] ALERT: stuck -> recovery
+[ 3840.09s] INFO: wp_skip -> wp_i=0
+[ 3844.92s] ALERT: stuck -> recovery
+[ 3850.10s] INFO: wp_skip -> wp_i=1
+[ 3850.56s] ALERT: stuck -> recovery
+[ 3860.10s] INFO: wp_skip -> wp_i=4
+[ 3864.16s] ALERT: stuck -> recovery
+[ 3869.88s] ALERT: stuck -> recovery
+[ 3871.48s] INFO: wp_skip -> wp_i=0
+[ 3876.33s] ALERT: stuck -> recovery
+[ 3881.48s] INFO: wp_skip -> wp_i=1
+[ 3881.96s] ALERT: stuck -> recovery
+[ 3891.48s] INFO: wp_skip -> wp_i=4
+[ 3895.52s] ALERT: stuck -> recovery
+[ 3901.21s] ALERT: stuck -> recovery
+[ 3902.81s] INFO: wp_skip -> wp_i=0
+[ 3907.66s] ALERT: stuck -> recovery
+[ 3912.82s] INFO: wp_skip -> wp_i=1
+[ 3913.31s] ALERT: stuck -> recovery
+[ 3922.82s] INFO: wp_skip -> wp_i=4
+[ 3926.03s] ALERT: stuck -> recovery
+[ 3931.64s] ALERT: stuck -> recovery
+[ 3933.24s] INFO: wp_skip -> wp_i=0
+[ 3937.70s] ALERT: stuck -> recovery
+[ 3943.24s] INFO: wp_skip -> wp_i=1
+[ 3943.93s] ALERT: stuck -> recovery
+[ 3953.24s] INFO: wp_skip -> wp_i=4
+[ 3957.24s] ALERT: stuck -> recovery
+[ 3963.08s] ALERT: stuck -> recovery
+[ 3964.68s] INFO: wp_skip -> wp_i=0
+[ 3969.54s] ALERT: stuck -> recovery
+[ 3974.68s] INFO: wp_skip -> wp_i=1
+[ 3975.16s] ALERT: stuck -> recovery
+[ 3984.68s] INFO: wp_skip -> wp_i=4
+[ 3988.75s] ALERT: stuck -> recovery
+[ 3994.39s] ALERT: stuck -> recovery
+[ 3995.99s] INFO: wp_skip -> wp_i=0
+[ 4000.79s] ALERT: stuck -> recovery
+[ 4006.00s] INFO: wp_skip -> wp_i=1
+[ 4006.46s] ALERT: stuck -> recovery
+[ 4016.01s] INFO: wp_skip -> wp_i=4
+[ 4020.09s] ALERT: stuck -> recovery
+[ 4025.75s] ALERT: stuck -> recovery
+[ 4027.34s] INFO: wp_skip -> wp_i=0
+[ 4032.15s] ALERT: stuck -> recovery
+[ 4037.34s] INFO: wp_skip -> wp_i=1
+[ 4037.84s] ALERT: stuck -> recovery
+[ 4047.35s] INFO: wp_skip -> wp_i=4
+[ 4051.41s] ALERT: stuck -> recovery
+[ 4057.09s] ALERT: stuck -> recovery
+[ 4058.69s] INFO: wp_skip -> wp_i=0
+[ 4063.53s] ALERT: stuck -> recovery
+[ 4068.70s] INFO: wp_skip -> wp_i=1
+[ 4069.20s] ALERT: stuck -> recovery
+[ 4078.71s] INFO: wp_skip -> wp_i=4
+[ 4082.81s] ALERT: stuck -> recovery
+[ 4088.49s] ALERT: stuck -> recovery
+[ 4090.08s] INFO: wp_skip -> wp_i=0
+[ 4094.94s] ALERT: stuck -> recovery
+[ 4100.09s] INFO: wp_skip -> wp_i=1
+[ 4100.59s] ALERT: stuck -> recovery
+[ 4110.10s] INFO: wp_skip -> wp_i=4
+[ 4114.15s] ALERT: stuck -> recovery
+[ 4119.83s] ALERT: stuck -> recovery
+[ 4121.45s] INFO: wp_skip -> wp_i=0
+[ 4126.32s] ALERT: stuck -> recovery
+[ 4131.46s] INFO: wp_skip -> wp_i=1
+[ 4131.94s] ALERT: stuck -> recovery
+[ 4141.47s] INFO: wp_skip -> wp_i=4
+[ 4145.47s] ALERT: stuck -> recovery
+[ 4151.10s] ALERT: stuck -> recovery
+[ 4152.69s] INFO: wp_skip -> wp_i=0
+[ 4157.50s] ALERT: stuck -> recovery
+[ 4162.70s] INFO: wp_skip -> wp_i=1
+[ 4163.17s] ALERT: stuck -> recovery
+[ 4172.70s] INFO: wp_skip -> wp_i=4
+[ 4176.74s] ALERT: stuck -> recovery
+[ 4182.41s] ALERT: stuck -> recovery
+[ 4184.03s] INFO: wp_skip -> wp_i=0
+[ 4188.85s] ALERT: stuck -> recovery
+[ 4194.03s] INFO: wp_skip -> wp_i=1
+[ 4194.49s] ALERT: stuck -> recovery
+[ 4204.04s] INFO: wp_skip -> wp_i=4
+[ 4208.12s] ALERT: stuck -> recovery
+[ 4213.76s] ALERT: stuck -> recovery
+[ 4215.35s] INFO: wp_skip -> wp_i=0
+[ 4220.19s] ALERT: stuck -> recovery
+[ 4225.35s] INFO: wp_skip -> wp_i=1
+[ 4225.84s] ALERT: stuck -> recovery
+[ 4235.35s] INFO: wp_skip -> wp_i=4
+[ 4239.47s] ALERT: stuck -> recovery
+[ 4245.14s] ALERT: stuck -> recovery
+[ 4246.75s] INFO: wp_skip -> wp_i=0
+[ 4251.61s] ALERT: stuck -> recovery
+[ 4256.75s] INFO: wp_skip -> wp_i=1
+[ 4257.26s] ALERT: stuck -> recovery
+[ 4266.76s] INFO: wp_skip -> wp_i=4
+[ 4270.77s] ALERT: stuck -> recovery
+[ 4276.43s] ALERT: stuck -> recovery
+[ 4278.03s] INFO: wp_skip -> wp_i=0
+[ 4282.83s] ALERT: stuck -> recovery
+[ 4288.05s] INFO: wp_skip -> wp_i=1
+[ 4288.51s] ALERT: stuck -> recovery
+[ 4298.05s] INFO: wp_skip -> wp_i=4
+[ 4302.15s] ALERT: stuck -> recovery
+[ 4307.75s] ALERT: stuck -> recovery
+[ 4309.36s] INFO: wp_skip -> wp_i=0
+[ 4314.22s] ALERT: stuck -> recovery
+[ 4319.38s] INFO: wp_skip -> wp_i=1
+[ 4319.84s] ALERT: stuck -> recovery
+[ 4329.38s] INFO: wp_skip -> wp_i=4
+[ 4333.46s] ALERT: stuck -> recovery
+[ 4339.09s] ALERT: stuck -> recovery
+[ 4340.70s] INFO: wp_skip -> wp_i=0
+[ 4345.56s] ALERT: stuck -> recovery
+[ 4350.71s] INFO: wp_skip -> wp_i=1
+[ 4351.20s] ALERT: stuck -> recovery
+[ 4360.71s] INFO: wp_skip -> wp_i=4
+[ 4364.75s] ALERT: stuck -> recovery
+[ 4370.42s] ALERT: stuck -> recovery
+[ 4372.02s] INFO: wp_skip -> wp_i=0
+[ 4376.85s] ALERT: stuck -> recovery
+[ 4382.02s] INFO: wp_skip -> wp_i=1
+[ 4382.50s] ALERT: stuck -> recovery
+[ 4392.03s] INFO: wp_skip -> wp_i=4
+[ 4396.07s] ALERT: stuck -> recovery
+[ 4401.72s] ALERT: stuck -> recovery
+[ 4403.32s] INFO: wp_skip -> wp_i=0
+[ 4408.18s] ALERT: stuck -> recovery
+[ 4413.34s] INFO: wp_skip -> wp_i=1
+[ 4413.80s] ALERT: stuck -> recovery
+[ 4423.35s] INFO: wp_skip -> wp_i=4
+[ 4427.41s] ALERT: stuck -> recovery
+[ 4433.07s] ALERT: stuck -> recovery
+[ 4434.68s] INFO: wp_skip -> wp_i=0
+[ 4439.47s] ALERT: stuck -> recovery
+[ 4444.68s] INFO: wp_skip -> wp_i=1
+[ 4445.14s] ALERT: stuck -> recovery
+[ 4454.68s] INFO: wp_skip -> wp_i=4
+[ 4458.75s] ALERT: stuck -> recovery
+[ 4464.42s] ALERT: stuck -> recovery
+[ 4466.02s] INFO: wp_skip -> wp_i=0
+[ 4470.84s] ALERT: stuck -> recovery
+[ 4476.02s] INFO: wp_skip -> wp_i=1
+[ 4476.48s] ALERT: stuck -> recovery
+[ 4486.03s] INFO: wp_skip -> wp_i=4
+[ 4490.11s] ALERT: stuck -> recovery
+[ 4495.78s] ALERT: stuck -> recovery
+[ 4497.40s] INFO: wp_skip -> wp_i=0
+[ 4502.21s] ALERT: stuck -> recovery
+[ 4507.40s] INFO: wp_skip -> wp_i=1
+[ 4507.88s] ALERT: stuck -> recovery
+[ 4517.40s] INFO: wp_skip -> wp_i=4
+[ 4521.43s] ALERT: stuck -> recovery
+[ 4527.07s] ALERT: stuck -> recovery
+[ 4528.66s] INFO: wp_skip -> wp_i=0
+[ 4533.47s] ALERT: stuck -> recovery
+[ 4538.67s] INFO: wp_skip -> wp_i=1
+[ 4539.14s] ALERT: stuck -> recovery
+[ 4548.67s] INFO: wp_skip -> wp_i=4
+[ 4552.73s] ALERT: stuck -> recovery
+[ 4558.41s] ALERT: stuck -> recovery
+[ 4560.00s] INFO: wp_skip -> wp_i=0
+[ 4564.80s] ALERT: stuck -> recovery
+[ 4570.01s] INFO: wp_skip -> wp_i=1
+[ 4570.47s] ALERT: stuck -> recovery
+[ 4580.02s] INFO: wp_skip -> wp_i=4
+[ 4584.11s] ALERT: stuck -> recovery
+[ 4589.78s] ALERT: stuck -> recovery
+[ 4591.37s] INFO: wp_skip -> wp_i=0
+[ 4596.21s] ALERT: stuck -> recovery
+[ 4601.37s] INFO: wp_skip -> wp_i=1
+[ 4601.89s] ALERT: stuck -> recovery
+[ 4611.38s] INFO: wp_skip -> wp_i=4
+[ 4615.50s] ALERT: stuck -> recovery
+[ 4621.15s] ALERT: stuck -> recovery
+[ 4622.75s] INFO: wp_skip -> wp_i=0
+[ 4627.56s] ALERT: stuck -> recovery
+[ 4632.76s] INFO: wp_skip -> wp_i=1
+[ 4633.22s] ALERT: stuck -> recovery
+[ 4642.76s] INFO: wp_skip -> wp_i=4
+[ 4646.79s] ALERT: stuck -> recovery
+[ 4652.42s] ALERT: stuck -> recovery
+[ 4654.03s] INFO: wp_skip -> wp_i=0
+[ 4658.86s] ALERT: stuck -> recovery
+[ 4664.04s] INFO: wp_skip -> wp_i=1
+[ 4664.50s] ALERT: stuck -> recovery
+[ 4674.05s] INFO: wp_skip -> wp_i=4
+[ 4678.09s] ALERT: stuck -> recovery
+[ 4683.75s] ALERT: stuck -> recovery
+[ 4685.34s] INFO: wp_skip -> wp_i=0
+[ 4690.19s] ALERT: stuck -> recovery
+[ 4695.35s] INFO: wp_skip -> wp_i=1
+[ 4695.83s] ALERT: stuck -> recovery
+[ 4705.35s] INFO: wp_skip -> wp_i=4
+[ 4709.42s] ALERT: stuck -> recovery
+[ 4715.03s] ALERT: stuck -> recovery
+[ 4716.63s] INFO: wp_skip -> wp_i=0
+[ 4721.49s] ALERT: stuck -> recovery
+[ 4726.64s] INFO: wp_skip -> wp_i=1
+[ 4727.16s] ALERT: stuck -> recovery
+[ 4736.64s] INFO: wp_skip -> wp_i=4
+[ 4740.71s] ALERT: stuck -> recovery
+[ 4746.38s] ALERT: stuck -> recovery
+[ 4747.98s] INFO: wp_skip -> wp_i=0
+[ 4752.83s] ALERT: stuck -> recovery
+[ 4757.99s] INFO: wp_skip -> wp_i=1
+[ 4758.45s] ALERT: stuck -> recovery
+[ 4768.01s] INFO: wp_skip -> wp_i=4
+[ 4772.10s] ALERT: stuck -> recovery
+[ 4777.77s] ALERT: stuck -> recovery
+[ 4779.38s] INFO: wp_skip -> wp_i=0
+[ 4784.25s] ALERT: stuck -> recovery
+[ 4789.38s] INFO: wp_skip -> wp_i=1
+[ 4789.91s] ALERT: stuck -> recovery
+[ 4799.39s] INFO: wp_skip -> wp_i=4
+[ 4803.42s] ALERT: stuck -> recovery
+[ 4809.05s] ALERT: stuck -> recovery
+[ 4810.66s] INFO: wp_skip -> wp_i=0
+[ 4815.47s] ALERT: stuck -> recovery
+[ 4820.68s] INFO: wp_skip -> wp_i=1
+[ 4821.14s] ALERT: stuck -> recovery
+[ 4830.69s] INFO: wp_skip -> wp_i=4
+[ 4834.78s] ALERT: stuck -> recovery
+[ 4840.44s] ALERT: stuck -> recovery
+[ 4842.03s] INFO: wp_skip -> wp_i=0
+[ 4846.90s] ALERT: stuck -> recovery
+[ 4852.04s] INFO: wp_skip -> wp_i=1
+[ 4852.54s] ALERT: stuck -> recovery
+[ 4862.05s] INFO: wp_skip -> wp_i=4
+[ 4866.11s] ALERT: stuck -> recovery
+[ 4871.80s] ALERT: stuck -> recovery
+[ 4873.41s] INFO: wp_skip -> wp_i=0
+[ 4878.21s] ALERT: stuck -> recovery
+[ 4883.42s] INFO: wp_skip -> wp_i=1
+[ 4883.88s] ALERT: stuck -> recovery
+[ 4893.42s] INFO: wp_skip -> wp_i=4
+[ 4897.50s] ALERT: stuck -> recovery
+[ 4903.20s] ALERT: stuck -> recovery
+[ 4904.80s] INFO: wp_skip -> wp_i=0
+[ 4909.66s] ALERT: stuck -> recovery
+[ 4914.80s] INFO: wp_skip -> wp_i=1
+[ 4915.26s] ALERT: stuck -> recovery
+[ 4924.80s] INFO: wp_skip -> wp_i=4
+[ 4928.88s] ALERT: stuck -> recovery
+[ 4934.53s] ALERT: stuck -> recovery
+[ 4936.14s] INFO: wp_skip -> wp_i=0
+[ 4940.97s] ALERT: stuck -> recovery
+[ 4946.15s] INFO: wp_skip -> wp_i=1
+[ 4946.63s] ALERT: stuck -> recovery
+[ 4956.15s] INFO: wp_skip -> wp_i=4
+[ 4960.19s] ALERT: stuck -> recovery
+[ 4965.82s] ALERT: stuck -> recovery
+[ 4967.41s] INFO: wp_skip -> wp_i=0
+[ 4972.28s] ALERT: stuck -> recovery
+[ 4977.42s] INFO: wp_skip -> wp_i=1
+[ 4977.94s] ALERT: stuck -> recovery
+[ 4987.43s] INFO: wp_skip -> wp_i=4
+[ 4991.51s] ALERT: stuck -> recovery
+[ 4997.16s] ALERT: stuck -> recovery
+[ 4998.76s] INFO: wp_skip -> wp_i=0
+[ 5003.58s] ALERT: stuck -> recovery
+[ 5008.77s] INFO: wp_skip -> wp_i=1
+[ 5009.23s] ALERT: stuck -> recovery
+[ 5018.78s] INFO: wp_skip -> wp_i=4
+[ 5022.86s] ALERT: stuck -> recovery
+[ 5028.51s] ALERT: stuck -> recovery
+[ 5030.12s] INFO: wp_skip -> wp_i=0
+[ 5034.95s] ALERT: stuck -> recovery
+[ 5040.13s] INFO: wp_skip -> wp_i=1
+[ 5040.59s] ALERT: stuck -> recovery
+[ 5050.13s] INFO: wp_skip -> wp_i=4
+[ 5054.23s] ALERT: stuck -> recovery
+[ 5059.88s] ALERT: stuck -> recovery
+[ 5061.48s] INFO: wp_skip -> wp_i=0
+[ 5066.33s] ALERT: stuck -> recovery
+[ 5071.49s] INFO: wp_skip -> wp_i=1
+[ 5071.95s] ALERT: stuck -> recovery
+[ 5081.49s] INFO: wp_skip -> wp_i=4
+[ 5085.60s] ALERT: stuck -> recovery
+[ 5091.27s] ALERT: stuck -> recovery
+[ 5092.88s] INFO: wp_skip -> wp_i=0
+[ 5097.71s] ALERT: stuck -> recovery
+[ 5102.89s] INFO: wp_skip -> wp_i=1
+[ 5103.35s] ALERT: stuck -> recovery
+[ 5112.89s] INFO: wp_skip -> wp_i=4
+[ 5116.91s] ALERT: stuck -> recovery
+[ 5122.59s] ALERT: stuck -> recovery
+[ 5124.18s] INFO: wp_skip -> wp_i=0
+[ 5129.03s] ALERT: stuck -> recovery
+[24998.49s] INFO: wp_skip -> wp_i=1
+[25001.62s] ALERT: stuck -> recovery
+[26409.55s] INFO: wp_skip -> wp_i=2
+[26415.78s] ALERT: stuck -> recovery
+[26419.01s] ALERT: stuck -> recovery
+[26419.97s] INFO: wp_skip -> wp_i=4
+[26421.83s] LAP_DONE: lap=3 lap_time=22759.85s
+[26421.83s] CHECKPOINT: idx=0
+[26428.24s] ALERT: stuck -> recovery
+[26430.60s] ALERT: stuck -> recovery
+[26431.83s] INFO: wp_skip -> wp_i=4
+[26432.80s] LAP_DONE: lap=4 lap_time=10.98s
+[26432.81s] CHECKPOINT: idx=0
+[26439.40s] ALERT: stuck -> recovery
+[26441.81s] ALERT: stuck -> recovery
+[26442.81s] INFO: wp_skip -> wp_i=4
+[26444.08s] LAP_DONE: lap=5 lap_time=11.27s
+[26444.08s] CHECKPOINT: idx=0
+[26450.55s] ALERT: stuck -> recovery
+[26452.57s] ALERT: stuck -> recovery
+[26454.08s] INFO: wp_skip -> wp_i=4
+[26454.97s] LAP_DONE: lap=6 lap_time=10.89s
+[26454.97s] CHECKPOINT: idx=0
+[26461.32s] ALERT: stuck -> recovery
+[26463.39s] ALERT: stuck -> recovery
+[26464.97s] INFO: wp_skip -> wp_i=4
+[26465.95s] LAP_DONE: lap=7 lap_time=10.98s
+[26465.95s] CHECKPOINT: idx=0
+[26472.60s] ALERT: stuck -> recovery
+[26474.89s] ALERT: stuck -> recovery
+[26475.96s] INFO: wp_skip -> wp_i=4
+[26477.05s] LAP_DONE: lap=8 lap_time=11.11s
+[26477.06s] CHECKPOINT: idx=0
+[26482.95s] ALERT: stuck -> recovery
+[26485.25s] ALERT: stuck -> recovery
+[26487.06s] INFO: wp_skip -> wp_i=4
+[26487.84s] LAP_DONE: lap=9 lap_time=10.79s
+[26487.84s] CHECKPOINT: idx=0
+[26493.89s] ALERT: stuck -> recovery
+[26496.00s] ALERT: stuck -> recovery
+[26497.85s] INFO: wp_skip -> wp_i=4
+[26498.74s] LAP_DONE: lap=10 lap_time=10.90s
+[26498.74s] CHECKPOINT: idx=0
+[26505.89s] ALERT: stuck -> recovery
+[26508.05s] ALERT: stuck -> recovery
+[26508.75s] INFO: wp_skip -> wp_i=4
+[26510.19s] LAP_DONE: lap=11 lap_time=11.45s
+[26510.20s] CHECKPOINT: idx=0
+[26516.10s] ALERT: stuck -> recovery
+[26518.22s] ALERT: stuck -> recovery
+[26520.20s] INFO: wp_skip -> wp_i=4
+[26521.08s] LAP_DONE: lap=12 lap_time=10.89s
+[26521.09s] CHECKPOINT: idx=0
+[26527.03s] ALERT: stuck -> recovery
+[26529.42s] ALERT: stuck -> recovery
+[26531.09s] INFO: wp_skip -> wp_i=4
+[26532.00s] LAP_DONE: lap=13 lap_time=10.92s
+[26532.01s] CHECKPOINT: idx=0
+[26538.07s] ALERT: stuck -> recovery
+[26540.18s] ALERT: stuck -> recovery
+[26542.01s] INFO: wp_skip -> wp_i=4
+[26542.90s] LAP_DONE: lap=14 lap_time=10.90s
+[26542.90s] CHECKPOINT: idx=0
+[26548.95s] ALERT: stuck -> recovery
+[26551.37s] ALERT: stuck -> recovery
+[26552.90s] INFO: wp_skip -> wp_i=4
+[26553.84s] LAP_DONE: lap=15 lap_time=10.94s
+[26553.84s] CHECKPOINT: idx=0
+[26559.84s] ALERT: stuck -> recovery
+[26561.97s] ALERT: stuck -> recovery
+[26563.84s] INFO: wp_skip -> wp_i=4
+[26564.78s] LAP_DONE: lap=16 lap_time=10.95s
+[26564.79s] CHECKPOINT: idx=0
+[26570.67s] ALERT: stuck -> recovery
+[26572.72s] ALERT: stuck -> recovery
+[26574.79s] INFO: wp_skip -> wp_i=4
+[26575.71s] LAP_DONE: lap=17 lap_time=10.93s
+[26575.72s] CHECKPOINT: idx=0
+[26581.63s] ALERT: stuck -> recovery
+[26583.69s] ALERT: stuck -> recovery
+[26585.72s] INFO: wp_skip -> wp_i=4
+[26585.89s] ALERT: stuck -> recovery
+[26587.68s] LAP_DONE: lap=18 lap_time=11.97s
+[26587.68s] CHECKPOINT: idx=0
+[26593.72s] ALERT: stuck -> recovery
+[26596.19s] ALERT: stuck -> recovery
+[26597.69s] INFO: wp_skip -> wp_i=4
+[26598.62s] LAP_DONE: lap=19 lap_time=10.95s
+[26598.63s] CHECKPOINT: idx=0
+[26604.51s] ALERT: stuck -> recovery
+[26606.59s] ALERT: stuck -> recovery
+[26608.63s] INFO: wp_skip -> wp_i=4
+[26609.58s] LAP_DONE: lap=20 lap_time=10.95s
+[26609.58s] CHECKPOINT: idx=0
+[26615.49s] ALERT: stuck -> recovery
+[26617.68s] ALERT: stuck -> recovery
+[26619.59s] INFO: wp_skip -> wp_i=4
+[26620.52s] LAP_DONE: lap=21 lap_time=10.94s
+[26620.53s] CHECKPOINT: idx=0
+[26626.56s] ALERT: stuck -> recovery
+[26628.66s] ALERT: stuck -> recovery
+[26630.53s] INFO: wp_skip -> wp_i=4
+[26631.45s] LAP_DONE: lap=22 lap_time=10.93s
+[26631.46s] CHECKPOINT: idx=0
+[26637.42s] ALERT: stuck -> recovery
+[26639.58s] ALERT: stuck -> recovery
+[26641.46s] INFO: wp_skip -> wp_i=4
+[26642.33s] LAP_DONE: lap=23 lap_time=10.88s
+[26642.33s] CHECKPOINT: idx=0
+[26648.21s] ALERT: stuck -> recovery
+[26650.33s] ALERT: stuck -> recovery
+[26652.34s] INFO: wp_skip -> wp_i=4
+[26652.51s] ALERT: stuck -> recovery
+[26654.36s] LAP_DONE: lap=24 lap_time=12.03s
+[26654.36s] CHECKPOINT: idx=0
+[26660.38s] ALERT: stuck -> recovery
+[26662.73s] ALERT: stuck -> recovery
+[26664.37s] INFO: wp_skip -> wp_i=4
+[26665.27s] LAP_DONE: lap=25 lap_time=10.91s
+[26665.28s] CHECKPOINT: idx=0
+[26671.34s] ALERT: stuck -> recovery
+[26673.44s] ALERT: stuck -> recovery
+[26675.28s] INFO: wp_skip -> wp_i=4
+[26676.16s] LAP_DONE: lap=26 lap_time=10.89s
+[26676.16s] CHECKPOINT: idx=0
+[26682.07s] ALERT: stuck -> recovery
+[26684.13s] ALERT: stuck -> recovery
+[26686.17s] INFO: wp_skip -> wp_i=4
+[26687.02s] LAP_DONE: lap=27 lap_time=10.86s
+[26687.03s] CHECKPOINT: idx=0
+[26693.14s] ALERT: stuck -> recovery
+[26695.57s] ALERT: stuck -> recovery
+[26697.03s] INFO: wp_skip -> wp_i=4
+[26697.98s] LAP_DONE: lap=28 lap_time=10.96s
+[26697.99s] CHECKPOINT: idx=0
+[26703.97s] ALERT: stuck -> recovery
+[26706.02s] ALERT: stuck -> recovery
+[26707.99s] INFO: wp_skip -> wp_i=4
+[26708.17s] ALERT: stuck -> recovery
+[26710.00s] LAP_DONE: lap=29 lap_time=12.02s
+[26710.01s] CHECKPOINT: idx=0
+[26716.11s] ALERT: stuck -> recovery
+[26718.74s] ALERT: stuck -> recovery
+[26720.01s] INFO: wp_skip -> wp_i=4
+[26720.90s] LAP_DONE: lap=30 lap_time=10.89s
+[26720.90s] CHECKPOINT: idx=0
+[26726.86s] ALERT: stuck -> recovery
+[26728.96s] ALERT: stuck -> recovery
+[26730.90s] INFO: wp_skip -> wp_i=4
+[26731.79s] LAP_DONE: lap=31 lap_time=10.89s
+[26731.80s] CHECKPOINT: idx=0
+[26737.83s] ALERT: stuck -> recovery
+[26740.02s] ALERT: stuck -> recovery
+[26741.80s] INFO: wp_skip -> wp_i=4
+[26742.72s] LAP_DONE: lap=32 lap_time=10.92s
+[26742.72s] CHECKPOINT: idx=0
+[26748.81s] ALERT: stuck -> recovery
+[26751.56s] ALERT: stuck -> recovery
+[26752.72s] INFO: wp_skip -> wp_i=4
+[26753.60s] LAP_DONE: lap=33 lap_time=10.89s
+[26753.61s] CHECKPOINT: idx=0
+[26759.65s] ALERT: stuck -> recovery
+[26761.79s] ALERT: stuck -> recovery
+[26763.61s] INFO: wp_skip -> wp_i=4
+[26764.56s] LAP_DONE: lap=34 lap_time=10.96s
+[26764.57s] CHECKPOINT: idx=0
+[26900.85s] INFO: wp_skip -> wp_i=4
+[26902.86s] LAP_DONE: lap=35 lap_time=138.29s
+[26902.87s] CHECKPOINT: idx=0
+[26908.94s] ALERT: stuck -> recovery
+[26911.20s] ALERT: stuck -> recovery
+[26912.87s] INFO: wp_skip -> wp_i=4
+[26913.85s] LAP_DONE: lap=36 lap_time=10.99s
+[26913.86s] CHECKPOINT: idx=0
+[26921.03s] ALERT: stuck -> recovery
+[26923.32s] ALERT: stuck -> recovery
+[26923.98s] INFO: wp_skip -> wp_i=4
+[26925.41s] LAP_DONE: lap=37 lap_time=11.56s
+[26925.41s] CHECKPOINT: idx=0
+[26931.48s] ALERT: stuck -> recovery
+[26933.70s] ALERT: stuck -> recovery
+[26935.42s] INFO: wp_skip -> wp_i=4
+[26936.30s] LAP_DONE: lap=38 lap_time=10.90s
+[26936.31s] CHECKPOINT: idx=0
+[26942.31s] ALERT: stuck -> recovery
+[26944.51s] ALERT: stuck -> recovery
+[26946.31s] INFO: wp_skip -> wp_i=4
+[26947.25s] LAP_DONE: lap=39 lap_time=10.95s
+[26947.26s] CHECKPOINT: idx=0
+[26953.19s] ALERT: stuck -> recovery
+[26955.42s] ALERT: stuck -> recovery
+[26957.26s] INFO: wp_skip -> wp_i=4
+[26958.17s] LAP_DONE: lap=40 lap_time=10.92s
+[26958.18s] CHECKPOINT: idx=0
+[26964.29s] ALERT: stuck -> recovery
+[26967.48s] ALERT: stuck -> recovery
+[26968.18s] INFO: wp_skip -> wp_i=4
+[26969.72s] LAP_DONE: lap=41 lap_time=11.55s
+[26969.73s] CHECKPOINT: idx=0
+[26976.09s] ALERT: stuck -> recovery
+[26978.56s] ALERT: stuck -> recovery
+[26979.73s] INFO: wp_skip -> wp_i=4
+[26980.88s] LAP_DONE: lap=42 lap_time=11.16s
+[26980.89s] CHECKPOINT: idx=0
+[26987.15s] ALERT: stuck -> recovery
+[26989.23s] ALERT: stuck -> recovery
+[26990.89s] INFO: wp_skip -> wp_i=4
+[26991.82s] LAP_DONE: lap=43 lap_time=10.94s
+[26991.83s] CHECKPOINT: idx=0
+[26997.90s] ALERT: stuck -> recovery
+[27000.12s] ALERT: stuck -> recovery
+[27001.83s] INFO: wp_skip -> wp_i=4
+[27002.79s] LAP_DONE: lap=44 lap_time=10.97s
+[27002.80s] CHECKPOINT: idx=0
+[27008.86s] ALERT: stuck -> recovery
+[27011.24s] ALERT: stuck -> recovery
+[27012.80s] INFO: wp_skip -> wp_i=4
+[27013.79s] LAP_DONE: lap=45 lap_time=11.00s
+[27013.79s] CHECKPOINT: idx=0
+[27020.02s] ALERT: stuck -> recovery
+[27022.17s] ALERT: stuck -> recovery
+[27023.80s] INFO: wp_skip -> wp_i=4
+[27024.71s] LAP_DONE: lap=46 lap_time=10.92s
+[27024.71s] CHECKPOINT: idx=0
+[27030.69s] ALERT: stuck -> recovery
+[27032.82s] ALERT: stuck -> recovery
+[27034.71s] INFO: wp_skip -> wp_i=4
+[27035.60s] LAP_DONE: lap=47 lap_time=10.89s
+[27035.60s] CHECKPOINT: idx=0
+[27041.66s] ALERT: stuck -> recovery
+[27043.74s] ALERT: stuck -> recovery
+[27045.61s] INFO: wp_skip -> wp_i=4
+[27046.56s] LAP_DONE: lap=48 lap_time=10.97s
+[27046.57s] CHECKPOINT: idx=0
+[27052.61s] ALERT: stuck -> recovery
+[27054.75s] ALERT: stuck -> recovery
+[27056.57s] INFO: wp_skip -> wp_i=4
+[27057.56s] LAP_DONE: lap=49 lap_time=10.99s
+[27057.56s] CHECKPOINT: idx=0
+[27063.66s] ALERT: stuck -> recovery
+[27065.78s] ALERT: stuck -> recovery
+[27067.56s] INFO: wp_skip -> wp_i=4
+[27068.44s] LAP_DONE: lap=50 lap_time=10.89s
+[27068.45s] CHECKPOINT: idx=0
+[27074.44s] ALERT: stuck -> recovery
+[27076.57s] ALERT: stuck -> recovery
+[27078.45s] INFO: wp_skip -> wp_i=4
+[27079.39s] LAP_DONE: lap=51 lap_time=10.95s
+[27079.40s] CHECKPOINT: idx=0
+[27086.28s] ALERT: stuck -> recovery
+[27088.75s] ALERT: stuck -> recovery
+[27089.48s] INFO: wp_skip -> wp_i=4
+[27090.94s] LAP_DONE: lap=52 lap_time=11.55s
+[27090.94s] CHECKPOINT: idx=0
+[27096.92s] ALERT: stuck -> recovery
+[27098.96s] ALERT: stuck -> recovery
+[27100.95s] INFO: wp_skip -> wp_i=4
+[27101.12s] ALERT: stuck -> recovery
+[27102.98s] LAP_DONE: lap=53 lap_time=12.04s
+[27102.99s] CHECKPOINT: idx=0
+[27109.02s] ALERT: stuck -> recovery
+[27111.19s] ALERT: stuck -> recovery
+[27112.99s] INFO: wp_skip -> wp_i=4
+[27113.87s] LAP_DONE: lap=54 lap_time=10.90s
+[27113.88s] CHECKPOINT: idx=0
+[27119.91s] ALERT: stuck -> recovery
+[27122.02s] ALERT: stuck -> recovery
+[27123.88s] INFO: wp_skip -> wp_i=4
+[27124.81s] LAP_DONE: lap=55 lap_time=10.94s
+[27124.82s] CHECKPOINT: idx=0
+[27130.76s] ALERT: stuck -> recovery
+[27132.81s] ALERT: stuck -> recovery
+[27134.82s] INFO: wp_skip -> wp_i=4
+[27135.74s] LAP_DONE: lap=56 lap_time=10.92s
+[27135.74s] CHECKPOINT: idx=0
+[27141.75s] ALERT: stuck -> recovery
+[27143.85s] ALERT: stuck -> recovery
+[27145.74s] INFO: wp_skip -> wp_i=4
+[27146.62s] LAP_DONE: lap=57 lap_time=10.89s
+[27146.63s] CHECKPOINT: idx=0
+[27152.58s] ALERT: stuck -> recovery
+[27154.67s] ALERT: stuck -> recovery
+[27156.63s] INFO: wp_skip -> wp_i=4
+[27156.80s] ALERT: stuck -> recovery
+[27158.64s] LAP_DONE: lap=58 lap_time=12.02s
+[27158.65s] CHECKPOINT: idx=0
+[27164.63s] ALERT: stuck -> recovery
+[27166.72s] ALERT: stuck -> recovery
+[27168.65s] INFO: wp_skip -> wp_i=4
+[27169.56s] LAP_DONE: lap=59 lap_time=10.92s
+[27169.57s] CHECKPOINT: idx=0
+[27175.58s] ALERT: stuck -> recovery
+[27177.93s] ALERT: stuck -> recovery
+[27179.57s] INFO: wp_skip -> wp_i=4
+[27180.48s] LAP_DONE: lap=60 lap_time=10.92s
+[27180.49s] CHECKPOINT: idx=0
+[27186.60s] ALERT: stuck -> recovery
+[27188.72s] ALERT: stuck -> recovery
+[27190.49s] INFO: wp_skip -> wp_i=4
+[27191.45s] LAP_DONE: lap=61 lap_time=10.97s
+[27191.46s] CHECKPOINT: idx=0
+[27197.38s] ALERT: stuck -> recovery
+[27199.46s] ALERT: stuck -> recovery
+[27201.46s] INFO: wp_skip -> wp_i=4
+[27201.64s] ALERT: stuck -> recovery
+[27203.54s] LAP_DONE: lap=62 lap_time=12.09s
+[27203.55s] CHECKPOINT: idx=0
+[27209.79s] ALERT: stuck -> recovery
+[27211.90s] ALERT: stuck -> recovery
+[27213.55s] INFO: wp_skip -> wp_i=4
+[27214.85s] LAP_DONE: lap=63 lap_time=11.31s
+[27214.85s] CHECKPOINT: idx=0
+[27221.06s] ALERT: stuck -> recovery
+[27223.45s] ALERT: stuck -> recovery
+[27224.86s] INFO: wp_skip -> wp_i=4
+[27225.78s] LAP_DONE: lap=64 lap_time=10.93s
+[27225.78s] CHECKPOINT: idx=0
+[27232.10s] ALERT: stuck -> recovery
+[27234.28s] ALERT: stuck -> recovery
+[27235.79s] INFO: wp_skip -> wp_i=4
+[27236.75s] LAP_DONE: lap=65 lap_time=10.98s
+[27236.76s] CHECKPOINT: idx=0
+[27243.10s] ALERT: stuck -> recovery
+[27245.30s] ALERT: stuck -> recovery
+[27246.76s] INFO: wp_skip -> wp_i=4
+[27247.69s] LAP_DONE: lap=66 lap_time=10.93s
+[27247.69s] CHECKPOINT: idx=0
+[27253.72s] ALERT: stuck -> recovery
+[27255.83s] ALERT: stuck -> recovery
+[27257.69s] INFO: wp_skip -> wp_i=4
+[27258.61s] LAP_DONE: lap=67 lap_time=10.93s
+[27258.62s] CHECKPOINT: idx=0
+[27264.65s] ALERT: stuck -> recovery
+[27267.30s] ALERT: stuck -> recovery
+[27268.62s] INFO: wp_skip -> wp_i=4
+[27269.59s] LAP_DONE: lap=68 lap_time=10.98s
+[27269.60s] CHECKPOINT: idx=0
+[27276.00s] ALERT: stuck -> recovery
+[27278.14s] ALERT: stuck -> recovery
+[27279.60s] INFO: wp_skip -> wp_i=4
+[27280.51s] LAP_DONE: lap=69 lap_time=10.91s
+[27280.51s] CHECKPOINT: idx=0
+[27286.58s] ALERT: stuck -> recovery
+[27288.83s] ALERT: stuck -> recovery
+[27290.51s] INFO: wp_skip -> wp_i=4
+[27291.55s] LAP_DONE: lap=70 lap_time=11.04s
+[27291.56s] CHECKPOINT: idx=0
+[27298.06s] ALERT: stuck -> recovery
+[27300.53s] ALERT: stuck -> recovery
+[27301.56s] INFO: wp_skip -> wp_i=4
+[27302.79s] LAP_DONE: lap=71 lap_time=11.24s
+[27302.80s] CHECKPOINT: idx=0
+[27308.86s] ALERT: stuck -> recovery
+[27311.05s] ALERT: stuck -> recovery
+[27312.80s] INFO: wp_skip -> wp_i=4
+[27313.74s] LAP_DONE: lap=72 lap_time=10.94s
+[27313.74s] CHECKPOINT: idx=0
+[27319.95s] ALERT: stuck -> recovery
+[27322.02s] ALERT: stuck -> recovery
+[27323.74s] INFO: wp_skip -> wp_i=4
+[27324.70s] LAP_DONE: lap=73 lap_time=10.96s
+[27324.70s] CHECKPOINT: idx=0
+[27330.76s] ALERT: stuck -> recovery
+[27332.87s] ALERT: stuck -> recovery
+[27334.71s] INFO: wp_skip -> wp_i=4
+[27335.63s] LAP_DONE: lap=74 lap_time=10.93s
+[27335.63s] CHECKPOINT: idx=0
+[27341.73s] ALERT: stuck -> recovery
+[27343.86s] ALERT: stuck -> recovery
+[27345.63s] INFO: wp_skip -> wp_i=4
+[27346.58s] LAP_DONE: lap=75 lap_time=10.96s
+[27346.59s] CHECKPOINT: idx=0
+[27352.55s] ALERT: stuck -> recovery
+[27354.73s] ALERT: stuck -> recovery
+[27356.59s] INFO: wp_skip -> wp_i=4
+[27357.46s] LAP_DONE: lap=76 lap_time=10.88s
+[27357.47s] CHECKPOINT: idx=0
+[27363.46s] ALERT: stuck -> recovery
+[27365.64s] ALERT: stuck -> recovery
+[27367.47s] INFO: wp_skip -> wp_i=4
+[27368.40s] LAP_DONE: lap=77 lap_time=10.94s
+[27368.41s] CHECKPOINT: idx=0
+[27374.39s] ALERT: stuck -> recovery
+[27376.49s] ALERT: stuck -> recovery
+[27378.41s] INFO: wp_skip -> wp_i=4
+[27379.36s] LAP_DONE: lap=78 lap_time=10.95s
+[27379.36s] CHECKPOINT: idx=0
+[27385.32s] ALERT: stuck -> recovery
+[27387.44s] ALERT: stuck -> recovery
+[27389.37s] INFO: wp_skip -> wp_i=4
+[27390.33s] LAP_DONE: lap=79 lap_time=10.97s
+[27390.33s] CHECKPOINT: idx=0
+[27396.22s] ALERT: stuck -> recovery
+[27398.39s] ALERT: stuck -> recovery
+[27400.33s] INFO: wp_skip -> wp_i=4
+[27401.27s] LAP_DONE: lap=80 lap_time=10.94s
+[27401.28s] CHECKPOINT: idx=0
+[27407.29s] ALERT: stuck -> recovery
+[27409.40s] ALERT: stuck -> recovery
+[27411.28s] INFO: wp_skip -> wp_i=4
+[27412.21s] LAP_DONE: lap=81 lap_time=10.94s
+[27412.21s] CHECKPOINT: idx=0
+[27418.36s] ALERT: stuck -> recovery
+[27420.48s] ALERT: stuck -> recovery
+[27422.21s] INFO: wp_skip -> wp_i=4
+[27423.15s] LAP_DONE: lap=82 lap_time=10.95s
+[27423.16s] CHECKPOINT: idx=0
+[27429.25s] ALERT: stuck -> recovery
+[27431.32s] ALERT: stuck -> recovery
+[27433.16s] INFO: wp_skip -> wp_i=4
+[27434.15s] LAP_DONE: lap=83 lap_time=10.99s
+[27434.15s] CHECKPOINT: idx=0
+[27440.17s] ALERT: stuck -> recovery
+[27442.28s] ALERT: stuck -> recovery
+[27444.15s] INFO: wp_skip -> wp_i=4
+[27445.04s] LAP_DONE: lap=84 lap_time=10.89s
+[27445.04s] CHECKPOINT: idx=0
+[27451.47s] ALERT: stuck -> recovery
+[27453.59s] ALERT: stuck -> recovery
+[27455.05s] INFO: wp_skip -> wp_i=4
+[27456.04s] LAP_DONE: lap=85 lap_time=11.00s
+[27456.04s] CHECKPOINT: idx=0
+[27462.19s] ALERT: stuck -> recovery
+[27464.38s] ALERT: stuck -> recovery
+[27466.05s] INFO: wp_skip -> wp_i=4
+[27466.95s] LAP_DONE: lap=86 lap_time=10.91s
+[27466.96s] CHECKPOINT: idx=0
+[27473.45s] ALERT: stuck -> recovery
+[27475.59s] ALERT: stuck -> recovery
+[27476.96s] INFO: wp_skip -> wp_i=4
+[27477.92s] LAP_DONE: lap=87 lap_time=10.97s
+[27477.93s] CHECKPOINT: idx=0
+[27484.58s] ALERT: stuck -> recovery
+[27487.56s] ALERT: stuck -> recovery
+[27488.35s] INFO: wp_skip -> wp_i=4
+[27490.74s] LAP_DONE: lap=88 lap_time=12.81s
+[27490.74s] CHECKPOINT: idx=0
+[27497.86s] ALERT: stuck -> recovery
+[27500.17s] ALERT: stuck -> recovery
+[27500.88s] INFO: wp_skip -> wp_i=4
+[27502.56s] LAP_DONE: lap=89 lap_time=11.82s
+[27502.57s] CHECKPOINT: idx=0
+[27509.12s] ALERT: stuck -> recovery
+[27511.41s] ALERT: stuck -> recovery
+[27512.57s] INFO: wp_skip -> wp_i=4
+[27513.70s] LAP_DONE: lap=90 lap_time=11.14s
+[27513.70s] CHECKPOINT: idx=0
+[27519.99s] ALERT: stuck -> recovery
+[27522.10s] ALERT: stuck -> recovery
+[27523.71s] INFO: wp_skip -> wp_i=4
+[27524.76s] LAP_DONE: lap=91 lap_time=11.06s
+[27524.77s] CHECKPOINT: idx=0
+[27531.21s] ALERT: stuck -> recovery
+[27534.51s] ALERT: stuck -> recovery
+[27535.32s] INFO: wp_skip -> wp_i=4
+[27537.22s] LAP_DONE: lap=92 lap_time=12.46s
+[27537.22s] CHECKPOINT: idx=0
+[27544.53s] ALERT: stuck -> recovery
+[27547.23s] INFO: wp_skip -> wp_i=4
+[27548.33s] LAP_DONE: lap=93 lap_time=11.12s
+[27548.34s] CHECKPOINT: idx=0
+[27555.69s] ALERT: stuck -> recovery
+[27558.29s] ALERT: stuck -> recovery
+[27559.12s] INFO: wp_skip -> wp_i=4
+[27560.83s] LAP_DONE: lap=94 lap_time=12.49s
+[27560.83s] CHECKPOINT: idx=0
+[27568.00s] ALERT: stuck -> recovery
+[27570.25s] ALERT: stuck -> recovery
+[27570.94s] INFO: wp_skip -> wp_i=4
+[27572.48s] LAP_DONE: lap=95 lap_time=11.65s
+[27572.49s] CHECKPOINT: idx=0
+[27578.87s] ALERT: stuck -> recovery
+[27581.22s] ALERT: stuck -> recovery
+[27582.49s] INFO: wp_skip -> wp_i=4
+[27583.44s] LAP_DONE: lap=96 lap_time=10.97s
+[27583.45s] CHECKPOINT: idx=0
+[27589.78s] ALERT: stuck -> recovery
+[27592.13s] ALERT: stuck -> recovery
+[27593.45s] INFO: wp_skip -> wp_i=4
+[27594.46s] LAP_DONE: lap=97 lap_time=11.01s
+[27594.46s] CHECKPOINT: idx=0
+[27600.89s] ALERT: stuck -> recovery
+[27603.16s] ALERT: stuck -> recovery
+[27604.46s] INFO: wp_skip -> wp_i=4
+[27605.50s] LAP_DONE: lap=98 lap_time=11.04s
+[27605.50s] CHECKPOINT: idx=0
+[27612.17s] ALERT: stuck -> recovery
+[27614.46s] ALERT: stuck -> recovery
+[27615.51s] INFO: wp_skip -> wp_i=4
+[27616.84s] LAP_DONE: lap=99 lap_time=11.34s
+[27616.84s] CHECKPOINT: idx=0
+[27623.37s] ALERT: stuck -> recovery
+[27626.58s] ALERT: stuck -> recovery
+[27627.44s] INFO: wp_skip -> wp_i=4
+[27629.21s] LAP_DONE: lap=100 lap_time=12.37s
+[27629.22s] CHECKPOINT: idx=0
+[27636.22s] ALERT: stuck -> recovery
+[27638.48s] ALERT: stuck -> recovery
+[27639.32s] INFO: wp_skip -> wp_i=4
+[27640.93s] LAP_DONE: lap=101 lap_time=11.72s
+[27640.93s] CHECKPOINT: idx=0
+[27647.84s] ALERT: stuck -> recovery
+[27650.08s] ALERT: stuck -> recovery
+[27650.94s] INFO: wp_skip -> wp_i=4
+[27652.48s] LAP_DONE: lap=102 lap_time=11.55s
+[27652.49s] CHECKPOINT: idx=0
+[27659.18s] ALERT: stuck -> recovery
+[27661.56s] ALERT: stuck -> recovery
+[27662.49s] INFO: wp_skip -> wp_i=4
+[27663.81s] LAP_DONE: lap=103 lap_time=11.33s
+[27663.81s] CHECKPOINT: idx=0
+[27670.52s] ALERT: stuck -> recovery
+[27672.83s] ALERT: stuck -> recovery
+[27673.82s] INFO: wp_skip -> wp_i=4
+[27675.26s] LAP_DONE: lap=104 lap_time=11.45s
+[27675.27s] CHECKPOINT: idx=0
+[27681.58s] ALERT: stuck -> recovery
+[27683.76s] ALERT: stuck -> recovery
+[27685.27s] INFO: wp_skip -> wp_i=4
+[27686.24s] LAP_DONE: lap=105 lap_time=10.97s
+[27686.24s] CHECKPOINT: idx=0
+[27692.66s] ALERT: stuck -> recovery
+[27695.00s] ALERT: stuck -> recovery
+[27696.25s] INFO: wp_skip -> wp_i=4
+[27697.24s] LAP_DONE: lap=106 lap_time=11.01s
+[27697.25s] CHECKPOINT: idx=0
+[27703.44s] ALERT: stuck -> recovery
+[27705.78s] ALERT: stuck -> recovery
+[27707.25s] INFO: wp_skip -> wp_i=4
+[27708.25s] LAP_DONE: lap=107 lap_time=11.01s
+[27708.26s] CHECKPOINT: idx=0
+[27714.68s] ALERT: stuck -> recovery
+[27716.99s] ALERT: stuck -> recovery
+[27718.26s] INFO: wp_skip -> wp_i=4
+[27719.25s] LAP_DONE: lap=108 lap_time=10.99s
+[27719.25s] CHECKPOINT: idx=0
+[27725.67s] ALERT: stuck -> recovery
+[27727.93s] ALERT: stuck -> recovery
+[27729.25s] INFO: wp_skip -> wp_i=4
+[27730.21s] LAP_DONE: lap=109 lap_time=10.96s
+[27730.22s] CHECKPOINT: idx=0
+[27736.49s] ALERT: stuck -> recovery
+[27738.61s] ALERT: stuck -> recovery
+[27740.22s] INFO: wp_skip -> wp_i=4
+[27741.19s] LAP_DONE: lap=110 lap_time=10.98s
+[27741.19s] CHECKPOINT: idx=0
+[27747.63s] ALERT: stuck -> recovery
+[27749.90s] ALERT: stuck -> recovery
+[27751.19s] INFO: wp_skip -> wp_i=4
+[27752.16s] LAP_DONE: lap=111 lap_time=10.97s
+[27752.16s] CHECKPOINT: idx=0
+[27758.47s] ALERT: stuck -> recovery
+[27760.87s] ALERT: stuck -> recovery
+[27762.17s] INFO: wp_skip -> wp_i=4
+[27763.12s] LAP_DONE: lap=112 lap_time=10.96s
+[27763.12s] CHECKPOINT: idx=0
+[27769.53s] ALERT: stuck -> recovery
+[27771.82s] ALERT: stuck -> recovery
+[27773.12s] INFO: wp_skip -> wp_i=4
+[27774.07s] LAP_DONE: lap=113 lap_time=10.96s
+[27774.08s] CHECKPOINT: idx=0
+[27780.84s] ALERT: stuck -> recovery
+[27783.60s] ALERT: stuck -> recovery
+[27784.23s] INFO: wp_skip -> wp_i=4
+[27785.80s] LAP_DONE: lap=114 lap_time=11.73s
+[27785.81s] CHECKPOINT: idx=0
+[27791.84s] ALERT: stuck -> recovery
+[27793.94s] ALERT: stuck -> recovery
+[27795.81s] INFO: wp_skip -> wp_i=4
+[27796.75s] LAP_DONE: lap=115 lap_time=10.95s
+[27796.75s] CHECKPOINT: idx=0
+[27803.02s] ALERT: stuck -> recovery
+[27805.11s] ALERT: stuck -> recovery
+[27806.76s] INFO: wp_skip -> wp_i=4
+[27807.66s] LAP_DONE: lap=116 lap_time=10.91s
+[27807.67s] CHECKPOINT: idx=0
+[27814.03s] ALERT: stuck -> recovery
+[27816.25s] ALERT: stuck -> recovery
+[27817.67s] INFO: wp_skip -> wp_i=4
+[27818.67s] LAP_DONE: lap=117 lap_time=11.01s
+[27818.67s] CHECKPOINT: idx=0
+[27824.87s] ALERT: stuck -> recovery
+[27827.29s] ALERT: stuck -> recovery
+[27828.67s] INFO: wp_skip -> wp_i=4
+[27829.65s] LAP_DONE: lap=118 lap_time=10.98s
+[27829.65s] CHECKPOINT: idx=0
+[27835.79s] ALERT: stuck -> recovery
+[27837.97s] ALERT: stuck -> recovery
+[27839.65s] INFO: wp_skip -> wp_i=4
+[27840.57s] LAP_DONE: lap=119 lap_time=10.93s
+[27840.58s] CHECKPOINT: idx=0
+[27846.68s] ALERT: stuck -> recovery
+[27849.60s] ALERT: stuck -> recovery
+[27850.58s] INFO: wp_skip -> wp_i=4
+[27851.84s] LAP_DONE: lap=120 lap_time=11.27s
+[27851.84s] CHECKPOINT: idx=0
+[27858.06s] ALERT: stuck -> recovery
+[27860.31s] ALERT: stuck -> recovery
+[27861.84s] INFO: wp_skip -> wp_i=4
+[27862.78s] LAP_DONE: lap=121 lap_time=10.94s
+[27862.79s] CHECKPOINT: idx=0
+[27869.04s] ALERT: stuck -> recovery
+[27871.43s] ALERT: stuck -> recovery
+[27872.79s] INFO: wp_skip -> wp_i=4
+[27873.71s] LAP_DONE: lap=122 lap_time=10.93s
+[27873.72s] CHECKPOINT: idx=0
+[27879.97s] ALERT: stuck -> recovery
+[27882.25s] ALERT: stuck -> recovery
+[27883.72s] INFO: wp_skip -> wp_i=4
+[27884.68s] LAP_DONE: lap=123 lap_time=10.96s
+[27884.69s] CHECKPOINT: idx=0
+[27891.06s] ALERT: stuck -> recovery
+[27893.34s] ALERT: stuck -> recovery
+[27894.69s] INFO: wp_skip -> wp_i=4
+[27895.56s] LAP_DONE: lap=124 lap_time=10.88s
+[27895.56s] CHECKPOINT: idx=0
+[27902.19s] ALERT: stuck -> recovery
+[27904.64s] ALERT: stuck -> recovery
+[27905.57s] INFO: wp_skip -> wp_i=4
+[27906.93s] LAP_DONE: lap=125 lap_time=11.37s
+[27906.93s] CHECKPOINT: idx=0
+[27913.88s] ALERT: stuck -> recovery
+[27916.19s] ALERT: stuck -> recovery
+[27916.94s] INFO: wp_skip -> wp_i=4
+[27918.50s] LAP_DONE: lap=126 lap_time=11.57s
+[27918.50s] CHECKPOINT: idx=0
+[27925.12s] ALERT: stuck -> recovery
+[27927.31s] ALERT: stuck -> recovery
+[27928.51s] INFO: wp_skip -> wp_i=4
+[27929.69s] LAP_DONE: lap=127 lap_time=11.19s
+[27929.69s] CHECKPOINT: idx=0
+[27936.60s] ALERT: stuck -> recovery
+[27938.87s] ALERT: stuck -> recovery
+[27939.69s] INFO: wp_skip -> wp_i=4
+[27941.29s] LAP_DONE: lap=128 lap_time=11.60s
+[27941.30s] CHECKPOINT: idx=0
+[27947.70s] ALERT: stuck -> recovery
+[27950.27s] ALERT: stuck -> recovery
+[27951.32s] INFO: wp_skip -> wp_i=4
+[27952.74s] LAP_DONE: lap=129 lap_time=11.45s
+[27952.75s] CHECKPOINT: idx=0
+[27959.47s] ALERT: stuck -> recovery
+[27961.77s] ALERT: stuck -> recovery
+[27962.75s] INFO: wp_skip -> wp_i=4
+[27964.04s] LAP_DONE: lap=130 lap_time=11.30s
+[27964.04s] CHECKPOINT: idx=0
+[27970.49s] ALERT: stuck -> recovery
+[27972.57s] ALERT: stuck -> recovery
+[27974.05s] INFO: wp_skip -> wp_i=4
+[27974.97s] LAP_DONE: lap=131 lap_time=10.93s
+[27974.97s] CHECKPOINT: idx=0
+[27980.95s] ALERT: stuck -> recovery
+[27983.31s] ALERT: stuck -> recovery
+[27984.97s] INFO: wp_skip -> wp_i=4
+[27985.88s] LAP_DONE: lap=132 lap_time=10.92s
+[27985.89s] CHECKPOINT: idx=0
+[27992.44s] ALERT: stuck -> recovery
+[27994.55s] ALERT: stuck -> recovery
+[27995.89s] INFO: wp_skip -> wp_i=4
+[27996.80s] LAP_DONE: lap=133 lap_time=10.91s
+[27996.80s] CHECKPOINT: idx=0
+[28003.33s] ALERT: stuck -> recovery
+[28005.49s] ALERT: stuck -> recovery
+[28006.80s] INFO: wp_skip -> wp_i=4
+[28007.72s] LAP_DONE: lap=134 lap_time=10.93s
+[28007.73s] CHECKPOINT: idx=0
+[28014.20s] ALERT: stuck -> recovery
+[28016.32s] ALERT: stuck -> recovery
+[28017.73s] INFO: wp_skip -> wp_i=4
+[28018.69s] LAP_DONE: lap=135 lap_time=10.97s
+[28018.70s] CHECKPOINT: idx=0
+[28025.11s] ALERT: stuck -> recovery
+[28027.21s] ALERT: stuck -> recovery
+[28028.70s] INFO: wp_skip -> wp_i=4
+[28029.67s] LAP_DONE: lap=136 lap_time=10.97s
+[28029.67s] CHECKPOINT: idx=0
+[28036.01s] ALERT: stuck -> recovery
+[28038.25s] ALERT: stuck -> recovery
+[28039.68s] INFO: wp_skip -> wp_i=4
+[28040.67s] LAP_DONE: lap=137 lap_time=11.00s
+[28040.68s] CHECKPOINT: idx=0
+[28047.13s] ALERT: stuck -> recovery
+[28049.42s] ALERT: stuck -> recovery
+[28050.68s] INFO: wp_skip -> wp_i=4
+[28051.60s] LAP_DONE: lap=138 lap_time=10.93s
+[28051.61s] CHECKPOINT: idx=0
+[28058.22s] ALERT: stuck -> recovery
+[28061.39s] ALERT: stuck -> recovery
+[28062.08s] INFO: wp_skip -> wp_i=4
+[28063.59s] LAP_DONE: lap=139 lap_time=11.99s
+[28063.60s] CHECKPOINT: idx=0
+[28070.11s] ALERT: stuck -> recovery
+[28072.38s] ALERT: stuck -> recovery
+[28073.60s] INFO: wp_skip -> wp_i=4
+[28074.54s] LAP_DONE: lap=140 lap_time=10.95s
+[28074.55s] CHECKPOINT: idx=0
+[28081.14s] ALERT: stuck -> recovery
+[28083.44s] ALERT: stuck -> recovery
+[28084.55s] INFO: wp_skip -> wp_i=4
+[28085.76s] LAP_DONE: lap=141 lap_time=11.22s
+[28085.77s] CHECKPOINT: idx=0
+[28092.43s] ALERT: stuck -> recovery
+[28094.71s] ALERT: stuck -> recovery
+[28095.77s] INFO: wp_skip -> wp_i=4
+[28097.05s] LAP_DONE: lap=142 lap_time=11.29s
+[28097.06s] CHECKPOINT: idx=0
+[28103.64s] ALERT: stuck -> recovery
+[28105.85s] ALERT: stuck -> recovery
+[28107.06s] INFO: wp_skip -> wp_i=4
+[28108.07s] LAP_DONE: lap=143 lap_time=11.02s
+[28108.08s] CHECKPOINT: idx=0
+[28114.60s] ALERT: stuck -> recovery
+[28116.84s] ALERT: stuck -> recovery
+[28118.08s] INFO: wp_skip -> wp_i=4
+[28119.03s] LAP_DONE: lap=144 lap_time=10.96s
+[28119.04s] CHECKPOINT: idx=0
+[28125.55s] ALERT: stuck -> recovery
+[28127.75s] ALERT: stuck -> recovery
+[28129.04s] INFO: wp_skip -> wp_i=4
+[28130.07s] LAP_DONE: lap=145 lap_time=11.04s
+[28130.07s] CHECKPOINT: idx=0
+[28136.44s] ALERT: stuck -> recovery
+[28138.70s] ALERT: stuck -> recovery
+[28140.08s] INFO: wp_skip -> wp_i=4
+[28141.00s] LAP_DONE: lap=146 lap_time=10.93s
+[28141.00s] CHECKPOINT: idx=0
+[28147.69s] ALERT: stuck -> recovery
+[28149.88s] ALERT: stuck -> recovery
+[28151.01s] INFO: wp_skip -> wp_i=4
+[28152.28s] LAP_DONE: lap=147 lap_time=11.29s
+[28152.29s] CHECKPOINT: idx=0
+[28158.69s] ALERT: stuck -> recovery
+[28161.25s] ALERT: stuck -> recovery
+[28162.29s] INFO: wp_skip -> wp_i=4
+[28164.10s] LAP_DONE: lap=148 lap_time=11.82s
+[28164.11s] CHECKPOINT: idx=0
+[28170.78s] ALERT: stuck -> recovery
+[28173.65s] ALERT: stuck -> recovery
+[28174.35s] INFO: wp_skip -> wp_i=4
+[28175.94s] LAP_DONE: lap=149 lap_time=11.83s
+[28175.94s] CHECKPOINT: idx=0
+[28182.39s] ALERT: stuck -> recovery
+[28184.89s] ALERT: stuck -> recovery
+[28185.94s] INFO: wp_skip -> wp_i=4
+[28187.31s] LAP_DONE: lap=150 lap_time=11.38s
+[28187.32s] CHECKPOINT: idx=0
+[28193.91s] ALERT: stuck -> recovery
+[28196.22s] ALERT: stuck -> recovery
+[28197.32s] INFO: wp_skip -> wp_i=4
+[28198.61s] LAP_DONE: lap=151 lap_time=11.30s
+[28198.62s] CHECKPOINT: idx=0
+[28205.08s] ALERT: stuck -> recovery
+[28207.36s] ALERT: stuck -> recovery
+[28208.62s] INFO: wp_skip -> wp_i=4
+[28209.57s] LAP_DONE: lap=152 lap_time=10.96s
+[28209.57s] CHECKPOINT: idx=0
+[28216.72s] ALERT: stuck -> recovery
+[28218.99s] ALERT: stuck -> recovery
+[28219.68s] INFO: wp_skip -> wp_i=4
+[28221.28s] LAP_DONE: lap=153 lap_time=11.71s
+[28221.28s] CHECKPOINT: idx=0
+[28228.25s] ALERT: stuck -> recovery
+[28230.53s] ALERT: stuck -> recovery
+[28231.29s] INFO: wp_skip -> wp_i=4
+[28232.91s] LAP_DONE: lap=154 lap_time=11.64s
+[28232.92s] CHECKPOINT: idx=0
+[28239.49s] ALERT: stuck -> recovery
+[28241.81s] ALERT: stuck -> recovery
+[28242.92s] INFO: wp_skip -> wp_i=4
+[28244.19s] LAP_DONE: lap=155 lap_time=11.28s
+[28244.20s] CHECKPOINT: idx=0
+[28250.83s] ALERT: stuck -> recovery
+[28253.02s] ALERT: stuck -> recovery
+[28254.20s] INFO: wp_skip -> wp_i=4
+[28255.53s] LAP_DONE: lap=156 lap_time=11.34s
+[28255.53s] CHECKPOINT: idx=0
+[28262.18s] ALERT: stuck -> recovery
+[28264.60s] ALERT: stuck -> recovery
+[28265.54s] INFO: wp_skip -> wp_i=4
+[28267.27s] LAP_DONE: lap=157 lap_time=11.74s
+[28267.27s] CHECKPOINT: idx=0
+[28273.86s] ALERT: stuck -> recovery
+[28276.44s] ALERT: stuck -> recovery
+[28277.28s] INFO: wp_skip -> wp_i=4
+[28278.78s] LAP_DONE: lap=158 lap_time=11.51s
+[28278.78s] CHECKPOINT: idx=0
+[28285.43s] ALERT: stuck -> recovery
+[28287.72s] ALERT: stuck -> recovery
+[28288.79s] INFO: wp_skip -> wp_i=4
+[28290.14s] LAP_DONE: lap=159 lap_time=11.36s
+[28290.14s] CHECKPOINT: idx=0
+[28297.11s] ALERT: stuck -> recovery
+[28299.50s] ALERT: stuck -> recovery
+[28300.14s] INFO: wp_skip -> wp_i=4
+[28301.83s] LAP_DONE: lap=160 lap_time=11.70s
+[28301.84s] CHECKPOINT: idx=0
+[28308.67s] ALERT: stuck -> recovery
+[28310.90s] ALERT: stuck -> recovery
+[28311.84s] INFO: wp_skip -> wp_i=4
+[28313.35s] LAP_DONE: lap=161 lap_time=11.52s
+[28313.36s] CHECKPOINT: idx=0
+[28320.22s] ALERT: stuck -> recovery
+[28323.12s] ALERT: stuck -> recovery
+[28323.85s] INFO: wp_skip -> wp_i=4
+[28325.42s] LAP_DONE: lap=162 lap_time=12.07s
+[28325.43s] CHECKPOINT: idx=0
+[28332.04s] ALERT: stuck -> recovery
+[28335.08s] ALERT: stuck -> recovery
+[28335.71s] INFO: wp_skip -> wp_i=4
+[28337.56s] LAP_DONE: lap=163 lap_time=12.14s
+[28337.56s] CHECKPOINT: idx=0
+[28343.97s] ALERT: stuck -> recovery
+[28346.18s] ALERT: stuck -> recovery
+[28347.57s] INFO: wp_skip -> wp_i=4
+[28348.63s] LAP_DONE: lap=164 lap_time=11.07s
+[28348.63s] CHECKPOINT: idx=0
+[28355.18s] ALERT: stuck -> recovery
+[28357.44s] ALERT: stuck -> recovery
+[28358.64s] INFO: wp_skip -> wp_i=4
+[28359.64s] LAP_DONE: lap=165 lap_time=11.01s
+[28359.64s] CHECKPOINT: idx=0
+[28365.89s] ALERT: stuck -> recovery
+[28368.33s] ALERT: stuck -> recovery
+[28369.65s] INFO: wp_skip -> wp_i=4
+[28370.61s] LAP_DONE: lap=166 lap_time=10.98s
+[28370.62s] CHECKPOINT: idx=0
+[28376.86s] ALERT: stuck -> recovery
+[28379.03s] ALERT: stuck -> recovery
+[28380.62s] INFO: wp_skip -> wp_i=4
+[28381.77s] LAP_DONE: lap=167 lap_time=11.16s
+[28381.78s] CHECKPOINT: idx=0
+[28388.15s] ALERT: stuck -> recovery
+[28390.49s] ALERT: stuck -> recovery
+[28391.78s] INFO: wp_skip -> wp_i=4
+[28392.73s] LAP_DONE: lap=168 lap_time=10.96s
+[28392.74s] CHECKPOINT: idx=0
+[28399.25s] ALERT: stuck -> recovery
+[28401.63s] ALERT: stuck -> recovery
+[28402.74s] INFO: wp_skip -> wp_i=4
+[28404.14s] LAP_DONE: lap=169 lap_time=11.41s
+[28404.15s] CHECKPOINT: idx=0
+[28410.68s] ALERT: stuck -> recovery
+[28413.22s] ALERT: stuck -> recovery
+[28414.15s] INFO: wp_skip -> wp_i=4
+[28415.62s] LAP_DONE: lap=170 lap_time=11.48s
+[28415.63s] CHECKPOINT: idx=0
+[28422.03s] ALERT: stuck -> recovery
+[28424.49s] ALERT: stuck -> recovery
+[28425.63s] INFO: wp_skip -> wp_i=4
+[28426.62s] LAP_DONE: lap=171 lap_time=11.00s
+[28426.63s] CHECKPOINT: idx=0
+[28433.13s] ALERT: stuck -> recovery
+[28435.38s] ALERT: stuck -> recovery
+[28436.63s] INFO: wp_skip -> wp_i=4
+[28437.62s] LAP_DONE: lap=172 lap_time=11.00s
+[28437.62s] CHECKPOINT: idx=0
+[28444.46s] ALERT: stuck -> recovery
+[28446.68s] ALERT: stuck -> recovery
+[28447.63s] INFO: wp_skip -> wp_i=4
+[28449.02s] LAP_DONE: lap=173 lap_time=11.40s
+[28449.02s] CHECKPOINT: idx=0
+[28455.40s] ALERT: stuck -> recovery
+[28457.65s] ALERT: stuck -> recovery
+[28459.03s] INFO: wp_skip -> wp_i=4
+[28459.99s] LAP_DONE: lap=174 lap_time=10.98s
+[28460.00s] CHECKPOINT: idx=0
+[28466.61s] ALERT: stuck -> recovery
+[28469.17s] ALERT: stuck -> recovery
+[28470.00s] INFO: wp_skip -> wp_i=4
+[28471.43s] LAP_DONE: lap=175 lap_time=11.44s
+[28471.44s] CHECKPOINT: idx=0
+[28478.47s] ALERT: stuck -> recovery
+[28480.87s] ALERT: stuck -> recovery
+[28481.56s] INFO: wp_skip -> wp_i=4
+[28483.12s] LAP_DONE: lap=176 lap_time=11.69s
+[28483.13s] CHECKPOINT: idx=0
+[28489.73s] ALERT: stuck -> recovery
+[28492.88s] ALERT: stuck -> recovery
+[28493.61s] INFO: wp_skip -> wp_i=4
+[28495.13s] LAP_DONE: lap=177 lap_time=12.01s
+[28495.13s] CHECKPOINT: idx=0
+[28501.61s] ALERT: stuck -> recovery
+[28503.83s] ALERT: stuck -> recovery
+[28505.13s] INFO: wp_skip -> wp_i=4
+[28506.10s] LAP_DONE: lap=178 lap_time=10.97s
+[28506.10s] CHECKPOINT: idx=0
+[28512.66s] ALERT: stuck -> recovery
+[28514.86s] ALERT: stuck -> recovery
+[28516.11s] INFO: wp_skip -> wp_i=4
+[28517.35s] LAP_DONE: lap=179 lap_time=11.25s
+[28517.36s] CHECKPOINT: idx=0
+[28524.13s] ALERT: stuck -> recovery
+[28526.30s] ALERT: stuck -> recovery
+[28527.36s] INFO: wp_skip -> wp_i=4
+[28528.70s] LAP_DONE: lap=180 lap_time=11.35s
+[28528.71s] CHECKPOINT: idx=0
+[28535.10s] ALERT: stuck -> recovery
+[28537.50s] ALERT: stuck -> recovery
+[28538.71s] INFO: wp_skip -> wp_i=4
+[28539.86s] LAP_DONE: lap=181 lap_time=11.16s
+[28539.87s] CHECKPOINT: idx=0
+[28546.92s] ALERT: stuck -> recovery
+[28549.87s] INFO: wp_skip -> wp_i=4
+[28550.07s] ALERT: stuck -> recovery
+[28552.28s] LAP_DONE: lap=182 lap_time=12.42s
+[28552.29s] CHECKPOINT: idx=0
+[28559.46s] ALERT: stuck -> recovery
+[28561.87s] ALERT: stuck -> recovery
+[28562.56s] INFO: wp_skip -> wp_i=4
+[28564.26s] LAP_DONE: lap=183 lap_time=11.98s
+[28564.27s] CHECKPOINT: idx=0
+[28571.10s] ALERT: stuck -> recovery
+[28573.53s] ALERT: stuck -> recovery
+[28574.27s] INFO: wp_skip -> wp_i=4
+[28575.88s] LAP_DONE: lap=184 lap_time=11.62s
+[28575.89s] CHECKPOINT: idx=0
+[28582.73s] ALERT: stuck -> recovery
+[28585.28s] ALERT: stuck -> recovery
+[28586.02s] INFO: wp_skip -> wp_i=4
+[28587.72s] LAP_DONE: lap=185 lap_time=11.84s
+[28587.73s] CHECKPOINT: idx=0
+[28594.38s] ALERT: stuck -> recovery
+[28597.08s] ALERT: stuck -> recovery
+[28597.78s] INFO: wp_skip -> wp_i=4
+[28599.56s] LAP_DONE: lap=186 lap_time=11.83s
+[28599.56s] CHECKPOINT: idx=0
+[28606.50s] ALERT: stuck -> recovery
+[28609.19s] ALERT: stuck -> recovery
+[28609.97s] INFO: wp_skip -> wp_i=4
+[28611.67s] LAP_DONE: lap=187 lap_time=12.11s
+[28611.68s] CHECKPOINT: idx=0
+[28618.40s] ALERT: stuck -> recovery
+[28620.83s] ALERT: stuck -> recovery
+[28621.68s] INFO: wp_skip -> wp_i=4
+[28623.26s] LAP_DONE: lap=188 lap_time=11.59s
+[28623.27s] CHECKPOINT: idx=0
+[28630.01s] ALERT: stuck -> recovery
+[28632.61s] ALERT: stuck -> recovery
+[28633.41s] INFO: wp_skip -> wp_i=4
+[28634.58s] LAP_DONE: lap=189 lap_time=11.32s
+[28634.59s] CHECKPOINT: idx=0
+[28641.19s] ALERT: stuck -> recovery
+[28643.76s] ALERT: stuck -> recovery
+[28644.59s] INFO: wp_skip -> wp_i=4
+[28646.18s] LAP_DONE: lap=190 lap_time=11.60s
+[28646.18s] CHECKPOINT: idx=0
+[28652.94s] ALERT: stuck -> recovery
+[28655.30s] ALERT: stuck -> recovery
+[28656.19s] INFO: wp_skip -> wp_i=4
+[28657.66s] LAP_DONE: lap=191 lap_time=11.48s
+[28657.67s] CHECKPOINT: idx=0
+[28664.24s] ALERT: stuck -> recovery
+[28666.55s] ALERT: stuck -> recovery
+[28667.67s] INFO: wp_skip -> wp_i=4
+[28668.91s] LAP_DONE: lap=192 lap_time=11.25s
+[28668.92s] CHECKPOINT: idx=0
+[28675.78s] ALERT: stuck -> recovery
+[28678.19s] ALERT: stuck -> recovery
+[28678.92s] INFO: wp_skip -> wp_i=4
+[28680.46s] LAP_DONE: lap=193 lap_time=11.55s
+[28680.47s] CHECKPOINT: idx=0
+[28687.18s] ALERT: stuck -> recovery
+[28689.42s] ALERT: stuck -> recovery
+[28690.47s] INFO: wp_skip -> wp_i=4
+[28691.76s] LAP_DONE: lap=194 lap_time=11.29s
+[28691.76s] CHECKPOINT: idx=0
+[28698.31s] ALERT: stuck -> recovery
+[28700.98s] ALERT: stuck -> recovery
+[28701.77s] INFO: wp_skip -> wp_i=4
+[28703.55s] LAP_DONE: lap=195 lap_time=11.79s
+[28703.55s] CHECKPOINT: idx=0
+[28710.66s] ALERT: stuck -> recovery
+[28712.90s] ALERT: stuck -> recovery
+[28713.64s] INFO: wp_skip -> wp_i=4
+[28715.29s] LAP_DONE: lap=196 lap_time=11.75s
+[28715.30s] CHECKPOINT: idx=0
+[28721.70s] ALERT: stuck -> recovery
+[28724.19s] ALERT: stuck -> recovery
+[28725.30s] INFO: wp_skip -> wp_i=4
+[28726.45s] LAP_DONE: lap=197 lap_time=11.15s
+[28726.46s] CHECKPOINT: idx=0
+[28733.51s] ALERT: stuck -> recovery
+[28735.83s] ALERT: stuck -> recovery
+[28736.51s] INFO: wp_skip -> wp_i=4
+[28738.27s] LAP_DONE: lap=198 lap_time=11.82s
+[28738.28s] CHECKPOINT: idx=0
+[28745.17s] ALERT: stuck -> recovery
+[28747.64s] ALERT: stuck -> recovery
+[28748.41s] INFO: wp_skip -> wp_i=4
+[28750.03s] LAP_DONE: lap=199 lap_time=11.76s
+[28750.03s] CHECKPOINT: idx=0
+[28756.94s] ALERT: stuck -> recovery
+[28759.49s] ALERT: stuck -> recovery
+[28760.13s] INFO: wp_skip -> wp_i=4
+[28761.84s] LAP_DONE: lap=200 lap_time=11.81s
+[28761.84s] CHECKPOINT: idx=0
+[28767.97s] ALERT: stuck -> recovery
+[28770.14s] ALERT: stuck -> recovery
+[28771.85s] INFO: wp_skip -> wp_i=4
+[28773.05s] LAP_DONE: lap=201 lap_time=11.21s
+[28773.05s] CHECKPOINT: idx=0
+[28779.95s] ALERT: stuck -> recovery
+[28782.38s] ALERT: stuck -> recovery
+[28783.08s] INFO: wp_skip -> wp_i=4
+[28784.72s] LAP_DONE: lap=202 lap_time=11.67s
+[28784.72s] CHECKPOINT: idx=0
+[28792.17s] ALERT: stuck -> recovery
+[28794.53s] ALERT: stuck -> recovery
+[28795.47s] INFO: wp_skip -> wp_i=4
+[28797.15s] LAP_DONE: lap=203 lap_time=12.43s
+[28797.16s] CHECKPOINT: idx=0
+[28804.18s] ALERT: stuck -> recovery
+[28806.77s] ALERT: stuck -> recovery
+[28807.70s] INFO: wp_skip -> wp_i=4
+[28809.30s] LAP_DONE: lap=204 lap_time=12.15s
+[28809.30s] CHECKPOINT: idx=0
+[28816.14s] ALERT: stuck -> recovery
+[28818.54s] ALERT: stuck -> recovery
+[28819.31s] INFO: wp_skip -> wp_i=4
+[28821.01s] LAP_DONE: lap=205 lap_time=11.72s
+[28821.02s] CHECKPOINT: idx=0
+[28828.06s] ALERT: stuck -> recovery
+[28830.47s] ALERT: stuck -> recovery
+[28831.26s] INFO: wp_skip -> wp_i=4
+[28832.88s] LAP_DONE: lap=206 lap_time=11.87s
+[28832.89s] CHECKPOINT: idx=0
+[28839.98s] ALERT: stuck -> recovery
+[28842.55s] ALERT: stuck -> recovery
+[28843.26s] INFO: wp_skip -> wp_i=4
+[28844.88s] LAP_DONE: lap=207 lap_time=12.00s
+[28844.88s] CHECKPOINT: idx=0
+[28851.67s] ALERT: stuck -> recovery
+[28854.13s] ALERT: stuck -> recovery
+[28854.89s] INFO: wp_skip -> wp_i=4
+[28856.53s] LAP_DONE: lap=208 lap_time=11.65s
+[28856.54s] CHECKPOINT: idx=0
+[28863.15s] ALERT: stuck -> recovery
+[28865.55s] ALERT: stuck -> recovery
+[28866.54s] INFO: wp_skip -> wp_i=4
+[28868.13s] LAP_DONE: lap=209 lap_time=11.60s
+[28868.14s] CHECKPOINT: idx=0
+[28874.75s] ALERT: stuck -> recovery
+[28877.08s] ALERT: stuck -> recovery
+[28878.14s] INFO: wp_skip -> wp_i=4
+[28879.47s] LAP_DONE: lap=210 lap_time=11.34s
+[28879.48s] CHECKPOINT: idx=0
+[28886.05s] ALERT: stuck -> recovery
+[28888.48s] ALERT: stuck -> recovery
+[28889.48s] INFO: wp_skip -> wp_i=4
+[28890.94s] LAP_DONE: lap=211 lap_time=11.47s
+[28890.95s] CHECKPOINT: idx=0
+[28897.69s] ALERT: stuck -> recovery
+[28900.16s] ALERT: stuck -> recovery
+[28900.95s] INFO: wp_skip -> wp_i=4
+[28902.60s] LAP_DONE: lap=212 lap_time=11.66s
+[28902.61s] CHECKPOINT: idx=0
+[28909.82s] ALERT: stuck -> recovery
+[28912.16s] ALERT: stuck -> recovery
+[28913.04s] INFO: wp_skip -> wp_i=4
+[28914.66s] LAP_DONE: lap=213 lap_time=12.05s
+[28914.67s] CHECKPOINT: idx=0
+[28921.55s] ALERT: stuck -> recovery
+[28924.50s] ALERT: stuck -> recovery
+[28925.22s] INFO: wp_skip -> wp_i=4
+[28927.06s] LAP_DONE: lap=214 lap_time=12.40s
+[28927.06s] CHECKPOINT: idx=0
+[28934.05s] ALERT: stuck -> recovery
+[28936.41s] ALERT: stuck -> recovery
+[28937.10s] INFO: wp_skip -> wp_i=4
+[28938.95s] LAP_DONE: lap=215 lap_time=11.89s
+[28938.95s] CHECKPOINT: idx=0
+[28945.35s] ALERT: stuck -> recovery
+[28947.98s] ALERT: stuck -> recovery
+[28949.10s] INFO: wp_skip -> wp_i=4
+[28950.72s] LAP_DONE: lap=216 lap_time=11.77s
+[28950.72s] CHECKPOINT: idx=0
+[28957.22s] ALERT: stuck -> recovery
+[28959.55s] ALERT: stuck -> recovery
+[28960.73s] INFO: wp_skip -> wp_i=4
+[28961.80s] LAP_DONE: lap=217 lap_time=11.08s
+[28961.80s] CHECKPOINT: idx=0
+[28968.60s] ALERT: stuck -> recovery
+[28970.78s] ALERT: stuck -> recovery
+[28971.81s] INFO: wp_skip -> wp_i=4
+[28973.16s] LAP_DONE: lap=218 lap_time=11.37s
+[28973.17s] CHECKPOINT: idx=0
+[28979.34s] ALERT: stuck -> recovery
+[28981.73s] ALERT: stuck -> recovery
+[28983.17s] INFO: wp_skip -> wp_i=4
+[28984.10s] LAP_DONE: lap=219 lap_time=10.94s
+[28984.10s] CHECKPOINT: idx=0
+[28990.35s] ALERT: stuck -> recovery
+[28992.51s] ALERT: stuck -> recovery
+[28994.11s] INFO: wp_skip -> wp_i=4
+[28995.10s] LAP_DONE: lap=220 lap_time=11.00s
+[28995.11s] CHECKPOINT: idx=0
+[29001.57s] ALERT: stuck -> recovery
+[29003.76s] ALERT: stuck -> recovery
+[29005.11s] INFO: wp_skip -> wp_i=4
+[29006.08s] LAP_DONE: lap=221 lap_time=10.98s
+[29006.09s] CHECKPOINT: idx=0
+[29012.40s] ALERT: stuck -> recovery
+[29014.53s] ALERT: stuck -> recovery
+[29016.09s] INFO: wp_skip -> wp_i=4
+[29017.02s] LAP_DONE: lap=222 lap_time=10.94s
+[29017.03s] CHECKPOINT: idx=0
+[29023.24s] ALERT: stuck -> recovery
+[29025.37s] ALERT: stuck -> recovery
+[29027.03s] INFO: wp_skip -> wp_i=4
+[29027.95s] LAP_DONE: lap=223 lap_time=10.93s
+[29027.95s] CHECKPOINT: idx=0
+[29034.08s] ALERT: stuck -> recovery
+[29036.20s] ALERT: stuck -> recovery
+[29037.96s] INFO: wp_skip -> wp_i=4
+[29038.87s] LAP_DONE: lap=224 lap_time=10.92s
+[29038.88s] CHECKPOINT: idx=0
+[29045.20s] ALERT: stuck -> recovery
+[29047.61s] ALERT: stuck -> recovery
+[29048.88s] INFO: wp_skip -> wp_i=4
+[29049.88s] LAP_DONE: lap=225 lap_time=11.01s
+[29049.89s] CHECKPOINT: idx=0

@@ -1,0 +1,21 @@
+[Unit]
+Description=Homecare robot Edge Agent
+After=network-online.target camera-server.service
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=pi
+Group=pi
+WorkingDirectory=/home/pi/homecloud
+EnvironmentFile=/etc/homecare-edge.env
+ExecStart=/home/pi/homecloud/.venv/bin/python mec_edge_agent.py --source http://127.0.0.1:5001/video_feed --mec-url https://REPLACE_WITH_MEC_ENDPOINT --device-id ranger-001 --fps 5 --set-baseline
+Restart=always
+RestartSec=3
+TimeoutStopSec=10
+NoNewPrivileges=true
+PrivateTmp=true
+UMask=0077
+
+[Install]
+WantedBy=multi-user.target

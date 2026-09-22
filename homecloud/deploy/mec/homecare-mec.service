@@ -1,0 +1,23 @@
+[Unit]
+Description=Homecare MEC inference service
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=homecare
+Group=homecare
+WorkingDirectory=/opt/homecare-mec
+EnvironmentFile=/etc/homecare-mec.env
+Environment=MEC_EVENT_STORE=/var/lib/homecare-mec/mec_events.sqlite3
+ExecStart=/opt/homecare-mec/.venv/bin/gunicorn --bind 0.0.0.0:7000 --workers 1 --threads 4 --timeout 30 mec_wsgi:app
+Restart=always
+RestartSec=3
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+StateDirectory=homecare-mec
+UMask=0077
+
+[Install]
+WantedBy=multi-user.target

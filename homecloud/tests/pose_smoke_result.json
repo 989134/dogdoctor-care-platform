@@ -1,0 +1,12 @@
+{
+  "frames_submitted": 40,
+  "tracked_samples": 21,
+  "states_observed": [
+    "bending",
+    "no_person",
+    "standing"
+  ],
+  "pose_fps": 9.2,
+  "error": "",
+  "jpeg_bytes": 46747
+}

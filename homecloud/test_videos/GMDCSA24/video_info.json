@@ -1,0 +1,34 @@
+[
+  {
+    "file": "subject1_adl_01.mp4",
+    "frames": 245,
+    "fps": 30.0,
+    "seconds": 8.17,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "file": "subject1_adl_02.mp4",
+    "frames": 198,
+    "fps": 30.0,
+    "seconds": 6.6,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "file": "subject1_fall_01.mp4",
+    "frames": 203,
+    "fps": 30.0,
+    "seconds": 6.77,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "file": "subject1_fall_02.mp4",
+    "frames": 189,
+    "fps": 30.0,
+    "seconds": 6.3,
+    "width": 1280,
+    "height": 720
+  }
+]

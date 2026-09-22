@@ -1,0 +1,11 @@
+[    1.43s] SYSTEM: start known-map patrol
+[   11.43s] INFO: wp_skip -> wp_i=4
+[   13.37s] LAP_DONE: lap=1 lap_time=11.94s
+[   13.38s] CHECKPOINT: idx=0
+[   23.39s] INFO: wp_skip -> wp_i=4
+[   27.48s] ALERT: stuck -> recovery
+[   33.16s] ALERT: stuck -> recovery
+[   34.76s] INFO: wp_skip -> wp_i=0
+[   39.60s] ALERT: stuck -> recovery
+[   44.76s] INFO: wp_skip -> wp_i=1
+[   45.23s] ALERT: stuck -> recovery

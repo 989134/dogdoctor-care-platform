@@ -1,0 +1,92 @@
+=== Patrol Session Start: 20260223_045754 ===
+[    1.35s] SYSTEM: start
+[    1.38s] CHECKPOINT: reached idx=0 -> dwell 1.2s
+[   12.38s] INFO: wp_timeout_skip -> wp_i=2 | dist=125.7
+[   12.61s] ALERT: stuck -> recovery | pose=(694.3,222.0) | wp_i=2
+[   14.92s] ALERT: deviation | d=60.8px | pose=(759.2,382.3)
+[   15.28s] CHECKPOINT: reached idx=2 -> dwell 1.2s
+[   22.13s] ALERT: stuck -> recovery | pose=(486.1,474.7) | wp_i=3
+[   26.29s] INFO: wp_timeout_skip -> wp_i=4 | dist=165.0
+[   28.69s] ALERT: deviation | d=82.2px | pose=(405.7,302.2)
+[   29.46s] LAP_DONE: lap=1 | lap_time=28.10s | stuck=2 | nogo=0 | dev=2 | inactivity=0 | wp_skip=2
+[   29.48s] CHECKPOINT: reached idx=0 -> dwell 1.2s
+[   37.70s] ALERT: stuck -> recovery | pose=(694.1,206.8) | wp_i=1
+[   40.50s] INFO: wp_timeout_skip -> wp_i=2 | dist=127.8
+[   42.71s] ALERT: deviation | d=67.3px | pose=(752.7,383.1)
+[   43.33s] CHECKPOINT: reached idx=2 -> dwell 1.2s
+[   51.18s] ALERT: stuck -> recovery | pose=(485.7,475.3) | wp_i=3
+[   54.33s] INFO: wp_timeout_skip -> wp_i=4 | dist=166.9
+[   56.72s] ALERT: deviation | d=82.6px | pose=(405.0,302.6)
+[   57.49s] LAP_DONE: lap=2 | lap_time=28.03s | stuck=4 | nogo=0 | dev=4 | inactivity=0 | wp_skip=4
+[   57.50s] CHECKPOINT: reached idx=0 -> dwell 1.2s
+[   65.76s] ALERT: stuck -> recovery | pose=(694.5,207.3) | wp_i=1
+[   68.51s] INFO: wp_timeout_skip -> wp_i=2 | dist=128.4
+[   70.68s] ALERT: deviation | d=64.2px | pose=(755.8,382.8)
+[   71.30s] CHECKPOINT: reached idx=2 -> dwell 1.2s
+[   79.21s] ALERT: stuck -> recovery | pose=(484.4,474.1) | wp_i=3
+[   82.31s] INFO: wp_timeout_skip -> wp_i=4 | dist=166.8
+[   86.53s] ALERT: stuck -> recovery | pose=(474.1,421.4) | wp_i=4
+[   90.40s] ALERT: deviation | d=84.6px | pose=(413.4,304.6)
+[   91.26s] LAP_DONE: lap=3 | lap_time=33.77s | stuck=7 | nogo=0 | dev=6 | inactivity=0 | wp_skip=6
+[   91.27s] CHECKPOINT: reached idx=0 -> dwell 1.2s
+[   99.53s] ALERT: stuck -> recovery | pose=(694.8,206.9) | wp_i=1
+[  102.28s] INFO: wp_timeout_skip -> wp_i=2 | dist=129.0
+[  104.48s] ALERT: deviation | d=66.2px | pose=(753.8,383.0)
+[  105.10s] CHECKPOINT: reached idx=2 -> dwell 1.2s
+[  112.97s] ALERT: stuck -> recovery | pose=(485.0,474.4) | wp_i=3
+[  116.11s] INFO: wp_timeout_skip -> wp_i=4 | dist=167.0
+[  120.34s] ALERT: stuck -> recovery | pose=(474.1,420.7) | wp_i=4
+[  124.24s] ALERT: deviation | d=83.1px | pose=(412.5,303.1)
+[  125.06s] LAP_DONE: lap=4 | lap_time=33.80s | stuck=10 | nogo=0 | dev=8 | inactivity=0 | wp_skip=8
+[  125.08s] CHECKPOINT: reached idx=0 -> dwell 1.2s
+[  133.38s] ALERT: stuck -> recovery | pose=(695.2,207.8) | wp_i=1
+[  136.08s] INFO: wp_timeout_skip -> wp_i=2 | dist=130.7
+[  138.31s] ALERT: deviation | d=63.3px | pose=(756.7,383.3)
+[  138.92s] CHECKPOINT: reached idx=2 -> dwell 1.2s
+[  146.75s] ALERT: stuck -> recovery | pose=(486.3,475.2) | wp_i=3
+[  149.93s] INFO: wp_timeout_skip -> wp_i=4 | dist=167.6
+[  152.48s] ALERT: deviation | d=83.8px | pose=(405.9,303.8)
+[  153.07s] LAP_DONE: lap=5 | lap_time=28.00s | stuck=12 | nogo=0 | dev=10 | inactivity=0 | wp_skip=10
+[  153.09s] CHECKPOINT: reached idx=0 -> dwell 1.2s
+[  161.32s] ALERT: stuck -> recovery | pose=(695.2,208.0) | wp_i=1
+[  164.10s] INFO: wp_timeout_skip -> wp_i=2 | dist=126.3
+[  166.28s] ALERT: deviation | d=67.0px | pose=(753.0,382.3)
+[  167.01s] CHECKPOINT: reached idx=2 -> dwell 1.2s
+[  174.49s] ALERT: stuck -> recovery | pose=(486.2,475.7) | wp_i=3
+[  178.02s] INFO: wp_timeout_skip -> wp_i=4 | dist=165.4
+[  182.35s] ALERT: stuck -> recovery | pose=(474.0,419.5) | wp_i=4
+[  186.14s] ALERT: deviation | d=83.6px | pose=(412.8,303.6)
+[  186.96s] LAP_DONE: lap=6 | lap_time=33.89s | stuck=15 | nogo=0 | dev=12 | inactivity=0 | wp_skip=12
+[  186.98s] CHECKPOINT: reached idx=0 -> dwell 1.2s
+[  195.29s] ALERT: stuck -> recovery | pose=(694.2,206.7) | wp_i=1
+[  197.99s] INFO: wp_timeout_skip -> wp_i=2 | dist=132.7
+[  200.19s] ALERT: deviation | d=64.4px | pose=(755.6,382.1)
+[  200.82s] CHECKPOINT: reached idx=2 -> dwell 1.2s
+[  208.84s] ALERT: stuck -> recovery | pose=(485.2,473.9) | wp_i=3
+[  211.82s] INFO: wp_timeout_skip -> wp_i=4 | dist=167.5
+[  214.23s] ALERT: deviation | d=83.4px | pose=(405.3,303.4)
+[  215.00s] LAP_DONE: lap=7 | lap_time=28.05s | stuck=17 | nogo=0 | dev=14 | inactivity=0 | wp_skip=14
+[  215.03s] CHECKPOINT: reached idx=0 -> dwell 1.2s
+[  223.31s] ALERT: stuck -> recovery | pose=(694.0,207.4) | wp_i=1
+[  226.03s] INFO: wp_timeout_skip -> wp_i=2 | dist=129.6
+[  228.22s] ALERT: deviation | d=64.7px | pose=(755.3,382.1)
+[  228.84s] CHECKPOINT: reached idx=2 -> dwell 1.2s
+[  236.73s] ALERT: stuck -> recovery | pose=(486.2,474.7) | wp_i=3
+[  239.84s] INFO: wp_timeout_skip -> wp_i=4 | dist=167.0
+[  242.38s] ALERT: deviation | d=83.2px | pose=(407.1,303.2)
+[  242.98s] LAP_DONE: lap=8 | lap_time=27.98s | stuck=19 | nogo=0 | dev=16 | inactivity=0 | wp_skip=16
+[  243.00s] CHECKPOINT: reached idx=0 -> dwell 1.2s
+[  251.26s] ALERT: stuck -> recovery | pose=(694.2,207.3) | wp_i=1
+[  254.02s] INFO: wp_timeout_skip -> wp_i=2 | dist=129.3
+[  256.18s] ALERT: deviation | d=63.4px | pose=(756.6,382.5)
+[  256.82s] CHECKPOINT: reached idx=2 -> dwell 1.2s
+[  264.69s] ALERT: stuck -> recovery | pose=(485.1,474.6) | wp_i=3
+[  267.82s] INFO: wp_timeout_skip -> wp_i=4 | dist=166.6
+[  272.09s] ALERT: stuck -> recovery | pose=(474.0,420.4) | wp_i=4
+[  275.91s] ALERT: deviation | d=84.0px | pose=(413.2,304.0)
+[  276.74s] LAP_DONE: lap=9 | lap_time=33.76s | stuck=22 | nogo=0 | dev=18 | inactivity=0 | wp_skip=18
+[  276.76s] CHECKPOINT: reached idx=0 -> dwell 1.2s
+[  285.62s] ALERT: stuck -> recovery | pose=(694.2,207.1) | wp_i=1
+[  287.77s] INFO: wp_timeout_skip -> wp_i=2 | dist=168.4
+[  290.55s] SYSTEM: quit
+[  290.56s] SYSTEM: summary generated -> patrol_summary_20260223_045754.txt
